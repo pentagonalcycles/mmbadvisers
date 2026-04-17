@@ -21,16 +21,24 @@ export default function AboutPage() {
             </p>
           </div>
           <figure className="card">
-            <Image
-              src="/images/marco-bianchi-one-pager-bio.png"
-              alt="Marco Bianchi one-page professional bio"
-              width={1400}
-              height={1980}
-              className="h-auto w-full rounded-md border border-[var(--line)]"
-              priority
-            />
+            <a
+              href="/images/marco-bianchi-one-pager-bio.png"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+              aria-label="Open Marco Bianchi one-page professional bio in a new tab"
+            >
+              <Image
+                src="/images/marco-bianchi-one-pager-bio.png"
+                alt="Marco Bianchi one-page professional bio"
+                width={1400}
+                height={1980}
+                className="h-auto w-full rounded-md border border-[var(--line)] transition hover:opacity-95"
+                priority
+              />
+            </a>
             <figcaption className="mt-3 text-xs text-[var(--muted)]">
-              One-page professional bio.
+              One-page professional bio. Click the image to open full size in a separate tab for easier reading.
             </figcaption>
           </figure>
         </div>
