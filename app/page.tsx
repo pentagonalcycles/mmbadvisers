@@ -7,7 +7,7 @@ export default function Home() {
       <section className="section">
         <div className="container grid gap-8 md:grid-cols-[1.2fr_1fr] md:items-end">
           <div>
-            <p className="eyebrow">Turning Point Dates Capital Protection</p>
+            <p className="eyebrow">TP Dates CP: Turning Point Dates for Capital Protection</p>
             <h1 className="mt-3 text-4xl leading-tight md:text-5xl" style={{ fontFamily: "var(--font-heading)" }}>
               {siteContent.heroTitle}
             </h1>
