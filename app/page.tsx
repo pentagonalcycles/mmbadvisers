@@ -13,7 +13,10 @@ export default function Home() {
             </h1>
             <p className="mt-5 max-w-2xl text-lg text-[var(--muted)]">{siteContent.heroSubtitle}</p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="/contact" className="rounded-full bg-[var(--accent)] px-5 py-2 text-white">
+              <Link
+                href="/contact"
+                className="rounded-full bg-[#123d39] px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-[#0f342f]"
+              >
                 Request a confidential briefing
               </Link>
               <Link href="/service" className="rounded-full border border-[var(--line)] px-5 py-2">
