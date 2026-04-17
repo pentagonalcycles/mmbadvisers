@@ -43,5 +43,5 @@ export const siteContent: SiteContent = {
     }
   ],
   disclaimer:
-    "This website is informational and does not constitute investment advice or an offer to buy or sell financial instruments. Past observations are not a guarantee of future outcomes."
+    "MMB Advisers is not FCA registered and does not provide regulated investment advice. Nothing on this website is a recommendation to enter specific trades, buy or sell any instrument, or take any particular investment action. Past observations are not a guarantee of future outcomes."
 };
