@@ -60,7 +60,9 @@ export default function ContactPage() {
         </form>
 
         <div className="mt-8 flex justify-center">
-          <Image src="/images/logo.png" alt="MMB Advisers logo" width={120} height={120} priority />
+          <a href="/images/logo.png" target="_blank" rel="noopener noreferrer" aria-label="Open logo image">
+            <Image src="/images/logo.png" alt="MMB Advisers logo" width={280} height={280} priority />
+          </a>
         </div>
       </div>
     </section>

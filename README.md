@@ -15,11 +15,11 @@ Minimal Next.js website for MMB Advisers risk management advisory service.
 - `app/method/page.tsx` - High-level methodology framework
 - `app/track-record/page.tsx` - Historical ex-ante windows and disclaimers
 - `app/about/page.tsx` - Professional background and credibility
-- `app/contact/page.tsx` - Contact details and briefing call-to-action
+- `app/contact/page.tsx` - Contact details, enquiry form, and clickable logo preview
 - `components/nav.tsx` - Global top navigation
 - `components/footer.tsx` - Global footer + legal disclaimer
 - `content/site.ts` - Shared copy (hero text, value points, timeline, disclaimer)
-- `public/images/logo.png` - Website logo asset
+- `public/images/logo.png` - Website logo asset (used in nav and contact page full-size preview link)
 
 ## Legal and compliance notes
 
