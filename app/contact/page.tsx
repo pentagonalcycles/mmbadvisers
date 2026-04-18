@@ -1,4 +1,26 @@
 import Image from "next/image";
+import { redirect } from "next/navigation";
+
+async function submitContactForm(formData: FormData) {
+  "use server";
+
+  const name = formData.get("name")?.toString().trim();
+  const email = formData.get("email")?.toString().trim();
+  const message = formData.get("message")?.toString().trim();
+
+  if (!name || !email || !message) {
+    redirect("/contact/sent?status=invalid");
+  }
+
+  console.info("Contact enquiry received", {
+    name,
+    email,
+    message,
+    receivedAt: new Date().toISOString(),
+  });
+
+  redirect("/contact/sent?status=ok");
+}
 
 export default function ContactPage() {
   return (
@@ -14,7 +36,7 @@ export default function ContactPage() {
           <p>MMB Advisers Ltd, registered in England & Wales, with company registration number 07722496</p>
         </div>
 
-        <form className="mt-8 card space-y-4" action="#" method="post">
+        <form className="mt-8 card space-y-4" action={submitContactForm}>
           <div>
             <label htmlFor="name" className="mb-1 block text-sm text-[var(--muted)]">
               Name
