@@ -9,7 +9,7 @@ export default function ContactPage() {
           Request a confidential briefing
         </h1>
         <div className="mt-6 card space-y-3 text-[var(--muted)]">
-          <p>Email: marco@mmbadvisers.com</p>
+          <p>Email: marco@mmb-advisers.com</p>
           <p>Phone: +44 7505 181967</p>
           <p>MMB Advisers Ltd, registered in England & Wales, with company registration number 07722496</p>
         </div>
