@@ -15,7 +15,8 @@ Minimal Next.js website for MMB Advisers risk management advisory service.
 - `app/method/page.tsx` - High-level methodology framework
 - `app/track-record/page.tsx` - Historical ex-ante windows and disclaimers
 - `app/about/page.tsx` - Professional background and credibility
-- `app/contact/page.tsx` - Contact details, enquiry form, and clickable logo preview
+- `app/contact/page.tsx` - Contact details, enquiry form, server-action submit handling, and clickable logo preview
+- `app/contact/sent/page.tsx` - Contact submission confirmation page (success/invalid states)
 - `components/nav.tsx` - Global top navigation
 - `components/footer.tsx` - Global footer + legal disclaimer
 - `content/site.ts` - Shared copy (hero text, value points, timeline, disclaimer)
@@ -51,6 +52,23 @@ Open `http://localhost:3000`.
 npm run lint
 npm run build
 ```
+
+## Contact form behavior
+
+- The contact form submits through a Next.js server action in `app/contact/page.tsx`.
+- Current behavior: validates required fields, logs enquiry payload server-side, and redirects to `/contact/sent`.
+- This avoids browser POST-to-page `405` errors by handling submit on the server action endpoint.
+- Email delivery is not yet wired in code; SMTP/API integration is a separate step.
+
+## Domain email (Zoho EU)
+
+- Domain mail provider: Zoho Mail EU (`zoho.eu`).
+- Active mailbox: `marco@mmb-advisers.com`.
+- DNS records required in Namecheap:
+  - MX: `mx.zoho.eu` (10), `mx2.zoho.eu` (20), `mx3.zoho.eu` (50)
+  - SPF TXT (`@`): `v=spf1 include:zoho.eu ~all`
+  - DKIM TXT: selector from Zoho admin (for example `zmail._domainkey`) with Zoho-provided `v=DKIM1; ...` value
+- Zoho setup steps `Email Migration` and `Go Mobile` are optional unless migration/mobile client setup is needed.
 
 ## Deployment workflow
 
