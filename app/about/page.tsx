@@ -11,7 +11,7 @@ export default function AboutPage() {
         <div className="mt-6 grid gap-6 md:grid-cols-[1.1fr_0.9fr] md:items-start">
           <div className="space-y-4 text-[var(--muted)]">
             <p>
-              30+ years in quantitative research and systematic trading across institutional environments, including roles at Barclays Capital, Citi, and the Bank of England.
+              30+ years in quantitative research and risk management across institutional environments, including roles at Barclays Capital, Citi, and the Bank of England.
             </p>
             <p>
               Former co-manager of a 250M USD long/short European equities fund and recipient of Eurohedge recognition for systematic strategies.

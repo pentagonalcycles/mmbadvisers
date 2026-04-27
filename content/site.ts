@@ -11,10 +11,11 @@ export type SiteContent = {
   disclaimer: string;
 };
 
+
 export const siteContent: SiteContent = {
   heroTitle: "Protecting Capital Against Market Meltdowns",
   heroSubtitle:
-    "MMB Advisers provides TP Dates CP, an ex-ante risk management overlay designed to help institutional investors mitigate severe drawdowns without liquidating core holdings.",
+    "MMB Advisers provides TP Dates CP (Turning Point Dates for Capital Protection), an ex-ante risk management overlay powered by machine learning and AI, designed to help institutional investors mitigate severe drawdowns without liquidating core holdings.",
   valuePoints: [
     "Early-warning windows for elevated crash risk",
     "Limited intervention hedge overlay, up to three times per year",
