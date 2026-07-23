@@ -1,6 +1,8 @@
 export type TimelineItem = {
   year: string;
   detail: string;
+  dialImage?: string;
+  chartImage?: string;
 };
 
 export type SiteContent = {
@@ -25,22 +27,30 @@ export const siteContent: SiteContent = {
     {
       year: "2020",
       detail:
-        "High-risk period flagged ex-ante around the COVID crash window to support fast protection decisions."
+        "High-risk period flagged ex-ante around the COVID crash window to support fast protection decisions.",
+      dialImage: "/images/Dial2020.png",
+      chartImage: "/images/Dial2020Chart.png",
     },
     {
       year: "2022",
       detail:
-        "Captured key stress windows while documenting model limits transparently for governance."
+        "Captured key stress windows while documenting model limits transparently for governance.",
+      dialImage: "/images/Dial2022.png",
+      chartImage: "/images/Dial2022Chart.png",
     },
     {
       year: "2025",
       detail:
-        "Identified two principal clusters, including February-April and late-October to November."
+        "Identified two principal clusters, including February-April and late-October to November.",
+      dialImage: "/images/Dial2025.png",
+      chartImage: "/images/Dial2025Chart.png",
     },
     {
       year: "2026 Q1",
       detail:
-        "Candidate TP dates highlighted in advance to prepare portfolio protection actions."
+        "Candidate TP dates highlighted in advance to prepare portfolio protection actions.",
+      dialImage: "/images/Dial2026.png",
+      chartImage: "/images/Dial2026Chart.png",
     }
   ],
   disclaimer:
