@@ -26,7 +26,8 @@ const charts = [
     title: "The Special Situations Volatility Trend Reversal Chart",
     image: "/images/SpecialSituationsVolatilityTrendReversalChart.png",
     alt: "Special situations volatility trend reversal chart",
-    description: "",
+    description:
+      "The Special Situations Volatility Trend Reversal line (red coloured in the chart) identifies periods of potential major local trend reversal in those time windows during the course of the year where the line shows marked decline.",
   },
 ];
 
