@@ -45,6 +45,13 @@ export default function MethodPage() {
             typically via liquid futures and options—without liquidating core holdings or incurring major
             transaction costs.
           </p>
+          <p>
+            We rely on a set of four proprietary indicators to map out a detailed, ex-ante roadmap for the main
+            risk periods during the course of the year: (1) the TP Dates CP candidate dates; (2) the Random
+            Forest predictive cycles indicator; (3) the stacked horizontal boxes heatmap indicator; (4) the time
+            window trend reversals indicator. Examples of each of these four indicators are illustrated on the
+            Track Record page.
+          </p>
         </div>
       </div>
     </section>
