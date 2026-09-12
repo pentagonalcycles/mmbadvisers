@@ -87,7 +87,7 @@ export default function MethodPage() {
         </div>
 
         <h2 className="mt-12 text-2xl" style={{ fontFamily: "var(--font-heading)" }}>
-          Proprietary Indicator Charts
+          4 CORE Proprietary Indicators
         </h2>
         <div className="mt-6 grid gap-6 md:grid-cols-2">
           {charts.map((chart) => (
