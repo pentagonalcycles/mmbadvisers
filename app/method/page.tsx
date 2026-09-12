@@ -27,7 +27,7 @@ const charts = [
     image: "/images/SpecialSituationsVolatilityTrendReversalChart.png",
     alt: "Special situations volatility trend reversal chart",
     description:
-      "The Special Situations Volatility Fast Price Reversal line (red coloured in the chart) identifies periods of potential major local trend reversal in those time windows during the course of the year where the line shows marked decline.",
+      "The Special Situations Volatility Fast Price Reversal line (red coloured in the chart) indicator identifies periods of potential fast price reversals in those time windows during the course of the year where the line shows marked decline (vertical rectangular black boxes). The indicator knows the time windows ex-ante, but one has to wait to the around the start of the time window to establish whether the price reversal will be to the upside or to the downside. Around the end of March 2026, for example, the DAX index represented by the blue line was in extreme oversold position; therefore, only then (at that point in time) indicating that the price reversal would be to the upside. As of around 10th September, on the contrary, DAX index trading very close to highs indicate a price reversal to the downside.",
   },
 ];
 
