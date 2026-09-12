@@ -12,7 +12,7 @@ Minimal Next.js website for MMB Advisers risk management advisory service.
 
 - `app/page.tsx` - Home page (value proposition, outcomes, CTA)
 - `app/service/page.tsx` - Service overview for TP Dates CP
-- `app/method/page.tsx` - High-level methodology framework
+- `app/method/page.tsx` - High-level methodology framework with proprietary indicator charts
 - `app/track-record/page.tsx` - Historical ex-ante windows with dial and chart visuals (2020, 2022, 2025, 2026)
 - `app/about/page.tsx` - Professional background and credibility
 - `app/contact/page.tsx` - Contact details, enquiry form, server-action submit handling, and clickable logo preview
@@ -22,6 +22,9 @@ Minimal Next.js website for MMB Advisers risk management advisory service.
 - `content/site.ts` - Shared copy (hero text, value points, timeline, disclaimer)
 - `public/images/logo.png` - Website logo asset (used in nav and contact page full-size preview link)
 - `public/images/Dial*.png` - Track record dial and chart images for 2020, 2022, 2025, 2026 (clickable, open full-size)
+- `public/images/RFOscillatorChart.png` - Random Forest oscillator chart (Method page)
+- `public/images/HorizontalBoxesHeatmapChart.png` - Horizontal boxes heatmap chart (Method page)
+- `public/images/SpecialSituationsVolatilityTrendReversalChart.png` - Special situations volatility trend reversal chart (Method page)
 
 ## Legal and compliance notes
 
@@ -36,7 +39,7 @@ Before public launch, re-check all legal wording with qualified UK regulatory/le
 
 - Always define `TP Dates CP` as `Turning Point Dates for Capital Protection` on first use in key pages.
 - Keep language advisory-focused (`risk management overlay`) and avoid promotional trading language.
-- Keep disclaimers consistent between footer and page-level copy.
+- Legal disclaimer appears in the site-wide footer only.
 
 ## Local development
 
