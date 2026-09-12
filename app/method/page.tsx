@@ -16,7 +16,7 @@ const charts = [
       "The 12 TP candidate dates extracted from the dial chart are plotted as vertical solid grey lines in the RF Oscillator chart, which also gives an oscillator line obtained at the end of each calendar year (in-sample), making turning points projections out-of-sample. So, for example, as TP dial chart indicates 26 Feb (02-26) and 25 Mar (03-25) as the only two TP candidate dates in the first quarter of 2026 (2026:Q1), the oscillator chart indicates the date of 02-27 as local high and the date of 03-13 as local low. Hence when we combine the information obtained from the two charts, we infer that 26-27 Feb is more likely predicted to be a high rather than a low and mid March to end March is more likely predicted to be a low rather than a high. Similarly, another period in time where there is strong correspondence of dates (the level of correspondence is seen where peaks or valleys in the oscillator red line occur aligned with any of the 12 vertical grey lines) is the time window 20 Oct to 20 Nov, predicted to be \"high to low\" much more likely than \"low to high\" time period.",
   },
   {
-    title: "The Horizontal Boxes Heatmap Chart",
+    title: "The Horizontal Boxes Heatmap Gantt Chart",
     image: "/images/HorizontalBoxesHeatmapChart.png",
     alt: "Horizontal boxes heatmap chart",
     description:
