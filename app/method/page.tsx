@@ -109,7 +109,7 @@ export default function MethodPage() {
                 />
               </a>
               {chart.description && (
-                <p className="mt-4 text-sm text-[var(--muted)]">{chart.description}</p>
+                <p className="mt-4 text-sm text-[var(--muted)] text-justify">{chart.description}</p>
               )}
             </article>
           ))}
