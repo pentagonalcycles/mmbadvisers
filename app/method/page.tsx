@@ -1,3 +1,28 @@
+import Image from "next/image";
+
+const charts = [
+  {
+    title: "The 12 TP Candidate Dates Dial Chart",
+    image: "/images/Dial2026.png",
+    alt: "TP Dates candidate dial for 2026",
+  },
+  {
+    title: "The RF (Random Forest) Oscillator Chart",
+    image: "/images/RFOscillatorChart.png",
+    alt: "Random Forest oscillator chart",
+  },
+  {
+    title: "The Horizontal Boxes Heatmap Chart",
+    image: "/images/HorizontalBoxesHeatmapChart.png",
+    alt: "Horizontal boxes heatmap chart",
+  },
+  {
+    title: "The Special Situations Volatility Trend Reversal Chart",
+    image: "/images/SpecialSituationsVolatilityTrendReversalChart.png",
+    alt: "Special situations volatility trend reversal chart",
+  },
+];
+
 export default function MethodPage() {
   return (
     <section className="section">
@@ -46,12 +71,37 @@ export default function MethodPage() {
             transaction costs.
           </p>
           <p>
-            We rely on a set of four proprietary indicators to map out a detailed, ex-ante roadmap for the main
-            risk periods during the course of the year: (1) the TP Dates CP candidate dates; (2) the Random
-            Forest predictive cycles indicator; (3) the stacked horizontal boxes heatmap indicator; (4) the time
-            window trend reversals indicator. Examples of each of these four indicators are illustrated on the
-            Track Record page.
+            We rely on a set of four core proprietary indicators to map out an ex-ante roadmap for the most
+            important risk periods faced by stock markets during the course of each calendar year. We have
+            therefore a set of 4 core charts, all of which are calculated at the end of each calendar year,
+            providing a roadmap view for the risks ahead in the new incoming year.
           </p>
+        </div>
+
+        <h2 className="mt-12 text-2xl" style={{ fontFamily: "var(--font-heading)" }}>
+          Proprietary Indicator Charts
+        </h2>
+        <div className="mt-6 grid gap-6 md:grid-cols-2">
+          {charts.map((chart) => (
+            <article key={chart.title} className="card">
+              <p className="font-semibold">{chart.title}</p>
+              <a
+                href={chart.image}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 block"
+                aria-label={`Open ${chart.title} full size`}
+              >
+                <Image
+                  src={chart.image}
+                  alt={chart.alt}
+                  width={600}
+                  height={400}
+                  className="h-auto w-full rounded-md border border-[var(--line)] transition hover:opacity-80"
+                />
+              </a>
+            </article>
+          ))}
         </div>
       </div>
     </section>
