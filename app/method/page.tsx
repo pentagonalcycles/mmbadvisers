@@ -23,11 +23,11 @@ const charts = [
       "The boxes of various colours plotted in the Gantt chart indicate periods in time where risks for a market decline are more active (activated) and when a large number of these boxes display a pattern of \"stacking\" above each other, like during the mid Sep 2026 to the end of the year underlined by the large rectangular red box, that is when the risks of downside / market crash are highest (according to our research / analyses).",
   },
   {
-    title: "The Special Situations Volatility Trend Reversal Chart",
+    title: "The Special Situations Volatility Fast Price Reversal",
     image: "/images/SpecialSituationsVolatilityTrendReversalChart.png",
     alt: "Special situations volatility trend reversal chart",
     description:
-      "The Special Situations Volatility Trend Reversal line (red coloured in the chart) identifies periods of potential major local trend reversal in those time windows during the course of the year where the line shows marked decline.",
+      "The Special Situations Volatility Fast Price Reversal line (red coloured in the chart) identifies periods of potential major local trend reversal in those time windows during the course of the year where the line shows marked decline.",
   },
 ];
 
@@ -80,7 +80,7 @@ export default function MethodPage() {
           </p>
           <p>
             We rely on a set of four core proprietary indicators to map out an ex-ante roadmap for the most
-            important risk periods faced by stock markets during the course of each calendar year. We have
+            important risk periods faced by stock markets during the course of each forthcoming calendar year. We have
             therefore a set of 4 core charts, all of which are calculated at the end of each calendar year,
             providing a roadmap view for the risks ahead in the new incoming year.
           </p>

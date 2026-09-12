@@ -8,7 +8,7 @@ export default function ServicePage() {
         </h1>
         <div className="mt-6 space-y-4 text-[var(--muted)]">
           <p>
-            The challenge: most risk tools are reactive --- they tell you AFTER the damage
+            The challenge: 95% of the risk tools available out there are reactive --- they tell you AFTER the damage. The service we provide places ourselves in the 5% tail.
           </p>
           <p>
             TP Dates CP (Turning Point Dates for Capital Protection) is a risk management advisory service designed to identify time windows EX-ANTE with elevated market crash risk and support minimal-intervention protective hedging.
