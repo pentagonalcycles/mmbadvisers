@@ -20,7 +20,7 @@ const charts = [
     image: "/images/HorizontalBoxesHeatmapChart.png",
     alt: "Horizontal boxes heatmap chart",
     description:
-      "The boxes of various colours plotted in the Gantt chart indicate periods in time where risks for a market decline are more active (activated) and when a large number of these boxes display a pattern of \"stacking\" above each other, like during the mid Sep 2026 to the end of the year underlined by the large rectangular red box, that is when the risks of downside / market crash are highest (according to our research / analyses).",
+      "None of our 4 core indicators provide any information at all on the level of intensity of a market correction / decline, APART from the Horizontal Boxes Heatmap chart. In this Gantt chart, boxes of various colours indicate periods in time where risks for a market decline (specifically) are more active (activated). When a large number of these boxes display a pattern of \"stacking\" above each other, like during the mid Sep 2026 to the end of the year underlined by the large rectangular red box, that is when the risks of downside / market crash are highest (according to our research / analyses). In this respect, the period starting from around mid September to the end of the year show much more intense risk, compared to the period beginning of May to mid September where horizontal boxes are very sparse (lack of intensity) and not stacking above each other. Among all months in the year, the month of November appears of greatest intensity / risk, by far. And this is during a time window in which there is very high level of convergence with the inference drawn from the previous two charts / indicators.",
   },
   {
     title: "The Special Situations Volatility Fast Price Reversal",
