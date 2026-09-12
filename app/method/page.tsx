@@ -82,7 +82,7 @@ export default function MethodPage() {
             We rely on a set of four core proprietary indicators to map out an ex-ante roadmap for the most
             important risk periods faced by stock markets during the course of each forthcoming calendar year. We have
             therefore a set of 4 core charts, all of which are calculated at the end of each calendar year,
-            providing a roadmap view for the risks ahead in the new incoming year.
+            providing a roadmap view for the risks ahead. Also, all our core charts are derived by completely independent calculations, which means that results are reinforced in the presence of convergence.
           </p>
         </div>
 
