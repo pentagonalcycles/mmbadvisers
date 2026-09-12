@@ -19,7 +19,8 @@ const charts = [
     title: "The Horizontal Boxes Heatmap Chart",
     image: "/images/HorizontalBoxesHeatmapChart.png",
     alt: "Horizontal boxes heatmap chart",
-    description: "",
+    description:
+      "The boxes of various colours plotted in the Gantt chart indicate periods in time where risks for a market decline are more active (activated) and when a large number of these boxes display a pattern of \"stacking\" above each other, like during the mid Sep 2026 to the end of the year underlined by the large rectangular red box, that is when the risks of downside / market crash are highest (according to our research / analyses).",
   },
   {
     title: "The Special Situations Volatility Trend Reversal Chart",
