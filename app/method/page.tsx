@@ -5,21 +5,26 @@ const charts = [
     title: "The 12 TP Candidate Dates Dial Chart",
     image: "/images/Dial2026.png",
     alt: "TP Dates candidate dial for 2026",
+    description:
+      "Important highs / lows in stock markets during the course of the year often coincide with (or are located close to) a few of our 12 turning point candidate dates. Out of 250 trading days, not all days have an equal probability of being a turning point when entering a new year. We normally allocate our 12 TP candidates in three clusters to further refine periods within the year where price reversals for major stock market indices should occur. We do not from this chart, however, which individual specific date out of the 12 candidates has highest probability of being an actual turning point; we also do not know, ex-ante, whether any of the three clusters periods or even any of the individual dates will have higher probability of representing lows rather than highs or vice-versa. For these reasons, we have developed the other proprietary indicators as part of our overall roadmap for hedging tail risk.",
   },
   {
     title: "The RF (Random Forest) Oscillator Chart",
     image: "/images/RFOscillatorChart.png",
     alt: "Random Forest oscillator chart",
+    description: "",
   },
   {
     title: "The Horizontal Boxes Heatmap Chart",
     image: "/images/HorizontalBoxesHeatmapChart.png",
     alt: "Horizontal boxes heatmap chart",
+    description: "",
   },
   {
     title: "The Special Situations Volatility Trend Reversal Chart",
     image: "/images/SpecialSituationsVolatilityTrendReversalChart.png",
     alt: "Special situations volatility trend reversal chart",
+    description: "",
   },
 ];
 
@@ -100,6 +105,9 @@ export default function MethodPage() {
                   className="h-auto w-full rounded-md border border-[var(--line)] transition hover:opacity-80"
                 />
               </a>
+              {chart.description && (
+                <p className="mt-4 text-sm text-[var(--muted)]">{chart.description}</p>
+              )}
             </article>
           ))}
         </div>
