@@ -130,7 +130,7 @@ export default function MethodPage() {
           </p>
           <p>
             The early summer cluster is not validated by the heatmap chart displaying extreme sparsity of
-            horizontal boxes, indicating lack of severe bear market pressure / activity. The Fall cluster,
+            horizontal boxes, indicating lack of severe bear market pressure / activity during the period May to mid September. The Fall cluster,
             on the contrary, is fully validated by the heatmap chart as a time window of high probability
             market crash risk. The Q1 cluster is validated by the RF oscillator assigning high probability
             for top formation around the end of February.
