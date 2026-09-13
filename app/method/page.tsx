@@ -114,6 +114,36 @@ export default function MethodPage() {
             </article>
           ))}
         </div>
+
+        <div className="mt-12 space-y-4 text-[var(--muted)]">
+          <h2 className="text-2xl" style={{ fontFamily: "var(--font-heading)" }}>
+            Summary
+          </h2>
+          <p>
+            We are now in the position to combine / cross reference the information provided by our four
+            core proprietary charts to give predictions for different time windows during the course of
+            the year 2026.
+          </p>
+          <p>
+            Taking the 12 TP dates dial chart as our main reference starting point, we have 3 clusters
+            located at: last month of Q1, early summer (mid June to first week of July) and the Fall.
+          </p>
+          <p>
+            The early cluster is not validated by the heatmap chart, displaying extreme sparsity of
+            horizontal boxes indicating lack of severe bear market pressure / activity. The Fall cluster,
+            on the contrary, is fully validated by the heatmap chart as a time window of high probability
+            market crash risk. The Q1 cluster is validated by the RF oscillator assigning high probability
+            for top formation around the end of February. The Special Situations fast price reversals chart
+            indicates that if the end of February local top prediction is confirmed in practice (which
+            ex-post it was, as we are writing this on Sunday Sep 13 2026), then fast price reversals time
+            window period of April-May strictly recommend hedge overlay off action - no shorting of futures
+            to protect the long portfolio holdings / investments. The same recommendation continues through
+            the June to August months due to lack of heatmap chart bear intensity. Time dates to initiate
+            hedge overlay on tail risk protection in 2026 are: end of February, beginning of September and
+            mid October (also looking at the RF chart). Probability of a market crash is very high in the
+            last quarter of the year - with month of November looking particularly bad.
+          </p>
+        </div>
       </div>
     </section>
   );
