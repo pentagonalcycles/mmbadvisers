@@ -133,8 +133,10 @@ export default function MethodPage() {
             horizontal boxes indicating lack of severe bear market pressure / activity. The Fall cluster,
             on the contrary, is fully validated by the heatmap chart as a time window of high probability
             market crash risk. The Q1 cluster is validated by the RF oscillator assigning high probability
-            for top formation around the end of February. The Special Situations fast price reversals chart
-            indicates that if the end of February local top prediction is confirmed in practice (which
+            for top formation around the end of February.
+          </p>
+          <p>
+            The Special Situations fast price reversals chart indicates that if the end of February local top prediction is confirmed in practice (which
             ex-post it was, as we are writing this on Sunday Sep 13 2026), then fast price reversals time
             window period of April-May strictly recommend hedge overlay off action - no shorting of futures
             to protect the long portfolio holdings / investments. The same recommendation continues through
