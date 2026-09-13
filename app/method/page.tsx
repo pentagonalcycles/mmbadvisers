@@ -149,7 +149,7 @@ export default function MethodPage() {
             last quarter of the year - with month of November looking particularly severe.
           </p>
           <p>
-            Our advisory service prompts just a few focused decisions during the course of each calendar year which have the potential to secure large pay-offs to the institutional investor - with maximum possible reward given by the amount of AUM multiplied by the percentage points of the crash, for every correctly predicted crash time window.
+            We would like to draw attention to how our advisory service prompts to just a few focused decisions during the course of each calendar year, which have the potential to secure large pay-offs to the institutional investor - with maximum possible reward given by the amount of AUM multiplied by the percentage points of the crash, for every correctly predicted crash time window.
           </p>
         </div>
       </div>
