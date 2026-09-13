@@ -12,7 +12,7 @@ Minimal Next.js website for MMB Advisers risk management advisory service.
 
 - `app/page.tsx` - Home page (value proposition, outcomes, CTA)
 - `app/service/page.tsx` - Service overview for TP Dates CP
-- `app/method/page.tsx` - High-level methodology framework with 4 core proprietary indicator charts and commentaries
+- `app/method/page.tsx` - High-level methodology framework with 4 core proprietary indicator charts, commentaries, and summary cross-referencing all indicators
 - `app/track-record/page.tsx` - Historical ex-ante windows with dial and chart visuals (2020, 2022, 2025, 2026)
 - `app/about/page.tsx` - Professional background and credibility
 - `app/contact/page.tsx` - Contact details, enquiry form, server-action submit handling, and clickable logo preview
