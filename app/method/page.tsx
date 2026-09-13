@@ -139,8 +139,9 @@ export default function MethodPage() {
             The Special Situations fast price reversals chart indicates that if the end of February local top prediction is confirmed in practice (which
             ex-post it was, as we are writing this on Sunday Sep 13 2026), then fast price reversals time
             window period of April-May strictly recommend hedge overlay off action - no shorting of futures
-            to protect the long portfolio holdings / investments. The same recommendation continues through
-            the June to August months due to lack of heatmap chart bear intensity. Time dates to initiate
+            to take place to protect the long portfolio holdings / investments. The same recommendation continues through
+            the June to August months due to lack of heatmap chart bear intensity.
+            Time dates to initiate
             hedge overlay on tail risk protection in 2026 are: end of February, beginning of September and
             mid October (also looking at the RF chart). Probability of a market crash is very high in the
             last quarter of the year - with month of November looking particularly bad.
