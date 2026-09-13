@@ -39,7 +39,6 @@ export default function TrackRecordPage() {
             </article>
           ))}
         </div>
-        <p className="mt-6 text-sm text-[var(--muted)]">{siteContent.disclaimer}</p>
       </div>
     </section>
   );
