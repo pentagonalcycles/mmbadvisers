@@ -141,7 +141,9 @@ export default function MethodPage() {
             window period of April-May strictly recommend hedge overlay off action - no shorting of futures
             to take place to protect the long portfolio holdings / investments. The same recommendation continues through
             the June to August months due to lack of heatmap chart bear intensity.
-            Time dates to initiate
+          </p>
+          <p>
+            In summary, time dates to initiate
             hedge overlay on tail risk protection in 2026 are: end of February, beginning of September and
             mid October (also looking at the RF chart). Probability of a market crash is very high in the
             last quarter of the year - with month of November looking particularly bad.
