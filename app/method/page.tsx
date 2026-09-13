@@ -126,7 +126,7 @@ export default function MethodPage() {
           </p>
           <p>
             Taking the 12 TP dates dial chart as our main reference starting point, we have 3 clusters
-            located at: last month of Q1, early summer (mid June to first week of July) and the Fall (20 Oct - 20 Nov).
+            located at: last month of Q1, early summer (mid June to first week of July) and the Fall (20 Oct - 30 Nov).
           </p>
           <p>
             The early summer cluster is not validated by the heatmap chart displaying extreme sparsity of
