@@ -144,8 +144,9 @@ export default function MethodPage() {
           </p>
           <p>
             Among the two dates in the 12 TP dial chart falling outside the three clusters, the 18-08 date is validated by the RF Oscillator 19-08 prediction as potential high.
-
-In summary, the dates to initiate
+          </p>
+          <p>
+            In summary, the dates to initiate
             hedge overlay on tail risk protection in 2026 are predicted to be: end of February, beginning of September and
             mid October (also looking at the RF chart). Probability of a market crash is very high in the
             last quarter of the year - with month of November looking particularly severe.
