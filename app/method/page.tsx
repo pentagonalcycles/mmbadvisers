@@ -146,7 +146,7 @@ export default function MethodPage() {
             In summary, the dates to initiate
             hedge overlay on tail risk protection in 2026 are: end of February, beginning of September and
             mid October (also looking at the RF chart). Probability of a market crash is very high in the
-            last quarter of the year - with month of November looking particularly bad.
+            last quarter of the year - with month of November looking particularly severe.
           </p>
         </div>
       </div>
