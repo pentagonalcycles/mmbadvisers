@@ -121,7 +121,7 @@ export default function MethodPage() {
           </h2>
           <p>
             We are now in the position to combine / cross reference the information provided by our four
-            core proprietary charts to give predictions for different time windows during the course of
+            core proprietary charts to give tail-risk predictions for different time windows during the course of
             the year 2026.
           </p>
           <p>
