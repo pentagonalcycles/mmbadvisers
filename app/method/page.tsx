@@ -129,7 +129,7 @@ export default function MethodPage() {
             located at: last month of Q1, early summer (mid June to first week of July) and the Fall.
           </p>
           <p>
-            The early cluster is not validated by the heatmap chart, displaying extreme sparsity of
+            The early summer cluster is not validated by the heatmap chart, displaying extreme sparsity of
             horizontal boxes indicating lack of severe bear market pressure / activity. The Fall cluster,
             on the contrary, is fully validated by the heatmap chart as a time window of high probability
             market crash risk. The Q1 cluster is validated by the RF oscillator assigning high probability
