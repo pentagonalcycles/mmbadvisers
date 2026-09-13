@@ -17,7 +17,7 @@ export type SiteContent = {
 export const siteContent: SiteContent = {
   heroTitle: "Protecting Capital Against Market Meltdowns",
   heroSubtitle:
-    "MMB Advisers provides TP Dates CP (Turning Point Dates for Capital Protection), an ex-ante tail risk hedging risk management overlay powered by machine learning and AI, designed to help institutional investors mitigate severe drawdowns without liquidating core holdings.",
+    "MMB Advisers provides TP Dates CP (Turning Point Dates for Capital Protection), an ex-ante tail risk management overlay powered by machine learning and AI, designed to help institutional investors mitigate severe drawdowns without liquidating core holdings.",
   valuePoints: [
     "Early-warning windows for elevated crash risk",
     "Limited intervention hedge overlay, up to three times per year",
@@ -41,7 +41,7 @@ export const siteContent: SiteContent = {
     {
       year: "2025",
       detail:
-        "Identified two principal clusters, including February-April and late-October to November.",
+        "Identified two principal clusters, spanning February-April and late-October to November.",
       dialImage: "/images/Dial2025.png",
       chartImage: "/images/Dial2025Chart.png",
     },

@@ -8,7 +8,7 @@ export default function ServicePage() {
         </h1>
         <div className="mt-6 space-y-4 text-[var(--muted)]">
           <p>
-            The challenge: 95% of the risk tools available out there are reactive --- they tell you AFTER the drawdowns.
+            The challenge: 95% of the risk tools available out there are reactive — they tell you AFTER the drawdowns.
           </p>
           <p>
             We tell you BEFORE the drawdowns, placing our advisory service in the 5% tail.
