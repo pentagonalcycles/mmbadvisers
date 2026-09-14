@@ -155,6 +155,18 @@ export default function MethodPage() {
             We would like to draw attention to how our advisory service prompts to just a few focused decisions during the course of each calendar year, which have the potential to secure large pay-offs to the institutional investor - with maximum possible reward given by the amount of AUM multiplied by the percentage points of the crash, for every correctly predicted crash time window.
           </p>
         </div>
+
+        <div className="mt-12">
+          <h2 className="text-2xl" style={{ fontFamily: "var(--font-heading)" }}>
+            Tail-Risk Turning Point Candidates for the Calendar Year 2026
+          </h2>
+          <iframe
+            src="/images/mytable.pdf"
+            className="mt-6 w-full rounded-md border border-[var(--line)]"
+            style={{ height: "80vh" }}
+            title="Tail-Risk Turning Point Candidates Table"
+          />
+        </div>
       </div>
     </section>
   );
