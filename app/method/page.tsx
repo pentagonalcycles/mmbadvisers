@@ -160,12 +160,21 @@ export default function MethodPage() {
           <h2 className="text-2xl" style={{ fontFamily: "var(--font-heading)" }}>
             Tail-Risk Turning Point Candidates for the Calendar Year 2026
           </h2>
-          <iframe
-            src="/images/mytable.pdf"
-            className="mt-6 w-full rounded-md border border-[var(--line)]"
-            style={{ height: "80vh" }}
-            title="Tail-Risk Turning Point Candidates Table"
-          />
+          <a
+            href="/images/mytable.png"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 block"
+            aria-label="Open table full size"
+          >
+            <Image
+              src="/images/mytable.png"
+              alt="Tail-Risk Turning Point Candidates for the Calendar Year 2026"
+              width={1200}
+              height={800}
+              className="h-auto w-full rounded-md border border-[var(--line)] transition hover:opacity-80"
+            />
+          </a>
         </div>
       </div>
     </section>
