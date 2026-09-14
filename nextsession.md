@@ -1,6 +1,6 @@
 # Next Session Notes (MMB Advisers)
 
-Date: 2026-09-13
+Date: 2026-09-14
 Repo: `pentagonalcycles/mmbadvisers`
 Branch: `main`
 Deployment: Vercel auto-deploy on push to `main`
@@ -12,10 +12,14 @@ Deployment: Vercel auto-deploy on push to `main`
 - Contact page updated with legal entity text, contact form, clickable logo.
 - Track record page now displays dial and chart visuals for 2020, 2022, 2025, and 2026 Q1.
 - Method page updated with Summary section cross-referencing all 4 core proprietary charts for 2026 predictions, plus final advisory service paragraph.
+- Method page now includes tail-risk turning point candidates table as a PNG image at the bottom.
 - Typos and grammar corrected across method, service, and site content files.
 
 ## Latest Commits
 
+- `037f8e0` - fix: remove redundant heading above table image
+- `03d90cf` - fix: replace PDF embed with PNG image for tail-risk table
+- `0967f04` - feat: add tail-risk turning point candidates table to method page
 - `f8b344b` - fix: amend advisory service phrasing and add comma
 - `24a60af` - fix: add tail-risk prefix to predictions
 - `d8a9758` - fix: replace particularly bad with particularly severe
@@ -44,6 +48,7 @@ Deployment: Vercel auto-deploy on push to `main`
 ## Files Recently Changed
 
 - `app/method/page.tsx`
+- `public/images/mytable.png`
 - `app/service/page.tsx`
 - `content/site.ts`
 
@@ -58,9 +63,14 @@ There are unrelated local image changes currently not committed (intentionally l
 
 When resuming, check whether these should be kept, committed, or cleaned up.
 
+## LaTeX Source
+
+- `mytable.tex` is located at `/home/marco/Desktop/mytable.tex` (outside repo).
+- Compiled to PNG via `pdftoppm -png -r 300` and placed in `public/images/mytable.png`.
+
 ## Suggested First Checks Next Session
 
-1. Verify method page renders correctly with new Summary section at `https://mmb-advisers.com/method`.
+1. Verify method page renders correctly with tail-risk table image at `https://mmb-advisers.com/method`.
 2. Confirm all text reads cleanly without typos.
 3. Decide whether to commit/ignore the remaining local `images/` changes.
 4. If contact form should send emails, implement backend handling (currently UI-only form).
