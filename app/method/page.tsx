@@ -157,9 +157,6 @@ export default function MethodPage() {
         </div>
 
         <div className="mt-12">
-          <h2 className="text-2xl" style={{ fontFamily: "var(--font-heading)" }}>
-            Tail-Risk Turning Point Candidates for the Calendar Year 2026
-          </h2>
           <a
             href="/images/mytable.png"
             target="_blank"
