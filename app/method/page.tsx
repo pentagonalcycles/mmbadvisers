@@ -232,6 +232,24 @@ export default function MethodPage() {
               className="h-auto w-full rounded-md border border-[var(--line)] transition hover:opacity-80"
             />
           </a>
+          <p>
+            Then we have 08-18 TP (red bar in the chart below), for which we do not have any particular indication as potential local low or high, since the price bar is not resting on any particular trend line.
+          </p>
+          <a
+            href="/images/DAXHeikenAshi2026Aug18.png"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+            aria-label="Open DAX Heiken Ashi chart with 08-18 turning point full size"
+          >
+            <Image
+              src="/images/DAXHeikenAshi2026Aug18.png"
+              alt="DAX Heiken Ashi chart showing 08-18 turning point date with no particular trend line indication"
+              width={1200}
+              height={800}
+              className="h-auto w-full rounded-md border border-[var(--line)] transition hover:opacity-80"
+            />
+          </a>
         </div>
       </div>
     </section>
