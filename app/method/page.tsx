@@ -214,6 +214,24 @@ export default function MethodPage() {
               className="h-auto w-full rounded-md border border-[var(--line)] transition hover:opacity-80"
             />
           </a>
+          <p>
+            Next we have the cluster of 4 TP candidate dates in the 18 Jun to 19 Jul period (the 4 red candles in the chart). For the last of these 4 dates only, the chart below indicated a higher probability for the 19 Jul bar to be a local low rather than high.
+          </p>
+          <a
+            href="/images/DAXHeikenAshi2026JunJul.png"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+            aria-label="Open DAX Heiken Ashi chart with June-July turning point cluster full size"
+          >
+            <Image
+              src="/images/DAXHeikenAshi2026JunJul.png"
+              alt="DAX Heiken Ashi chart showing 18 June to 19 July turning point cluster with 19 July local low indication"
+              width={1200}
+              height={800}
+              className="h-auto w-full rounded-md border border-[var(--line)] transition hover:opacity-80"
+            />
+          </a>
         </div>
       </div>
     </section>
