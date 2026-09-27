@@ -175,9 +175,18 @@ export default function MethodPage() {
         </div>
 
         <h2 className="mt-12 text-2xl" style={{ fontFamily: "var(--font-heading)" }}>
-          Rules for Removal of Hedge Overlay Protection and High/Low Evaluation of TP Candidate Dates
+          Integration of TP Candidate Dates with Primary Trendlines Analysis
         </h2>
         <div className="mt-4 space-y-4 text-[var(--muted)]">
+          <p>
+            In the sequence of charts reported below, daily price bars for the Dax cash index (our reference index for stock markets tail risk evaluation, together with SPX and NDX indices in the USA) are drawn in: black in bull trading days; dark grey in bear days; and dark red when corresponding to one of our TP candidate dates.
+          </p>
+          <p>
+            Green and red dashed lines in the chart display the &quot;primary active trend&quot; lines (green = primary trend is bull trend, red = primary trend is bear), drawn from major local lows / highs, while the orange dotted sub trend lines represent fixed geometric representations of the primary trend lines.
+          </p>
+          <p>
+            NB: this type of geometric trend lines configurations are NOT drawn on the price chart subjectively and can NEVER be revised ex-post.
+          </p>
           <p>
             The chart below would have been seen as of the close of business 31 March 2026. This is the first date since the 27 Feb high that a price bar is located above the dotted orange trend line originating from the 27 Feb high. This is an indication to remove hedge overlay protection.
           </p>
