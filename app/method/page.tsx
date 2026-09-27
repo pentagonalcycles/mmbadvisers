@@ -278,7 +278,7 @@ export default function MethodPage() {
             />
           </a>
           <p>
-            DAX index in bear scenario as of the end of September, which is going to continue to hold true until price bars continue to gravitate below the primary bear local trend indicated by the dashed red local trend line originating from 28Aug double top configuration aligned with our 17-18Aug TP candidate date.
+            DAX cash index remains in primary bear territory until price bars remain below the primary bear line associated with the 28 Aug double top configuration - aligned with our 18 Aug TP candidate date.
           </p>
         </div>
       </div>
