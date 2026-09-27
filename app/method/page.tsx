@@ -278,7 +278,7 @@ export default function MethodPage() {
             />
           </a>
           <p>
-            DAX cash index remains in primary bear territory until price bars remain below the primary bear line associated with the 28 Aug double top configuration - aligned with our 18 Aug TP candidate date.
+            As of the end of September, DAX cash index remains in primary bear territory until price bars remain below the primary bear line associated with the 28 Aug double top configuration - aligned with our 18 Aug TP candidate date.
           </p>
         </div>
       </div>
