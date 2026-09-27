@@ -12,7 +12,7 @@ Minimal Next.js website for MMB Advisers risk management advisory service.
 
 - `app/page.tsx` - Home page (value proposition, outcomes, CTA)
 - `app/service/page.tsx` - Service overview for TP Dates CP
-- `app/method/page.tsx` - High-level methodology framework with 4 core proprietary indicator charts, commentaries, summary cross-referencing all indicators, and tail-risk turning point candidates table
+- `app/method/page.tsx` - High-level methodology framework with 4 core proprietary indicator charts, commentaries, summary cross-referencing all indicators, tail-risk turning point candidates table, and a "Rules for Removal of Hedge Overlay Protection" walk-through with DAX Heiken Ashi charts
 - `app/track-record/page.tsx` - Historical ex-ante windows with dial and chart visuals (2020, 2022, 2025, 2026)
 - `app/about/page.tsx` - Professional background and credibility
 - `app/contact/page.tsx` - Contact details, enquiry form, server-action submit handling, and clickable logo preview
@@ -26,6 +26,11 @@ Minimal Next.js website for MMB Advisers risk management advisory service.
 - `public/images/HorizontalBoxesHeatmapChart.png` - Horizontal Boxes Heatmap Gantt chart (Method page)
 - `public/images/SpecialSituationsVolatilityTrendReversalChart.png` - Special Situations Volatility Fast Price Reversal chart (Method page)
 - `public/images/mytable.png` - Tail-risk turning point candidates table for 2026 (Method page)
+- `public/images/DAXHeikenAshi2026Q1.png` - DAX Heiken Ashi chart to 31 March 2026 showing hedge overlay removal signal (Method page)
+- `public/images/DAXHeikenAshi2026May05.png` - DAX Heiken Ashi chart showing 05-05 turning point (Method page)
+- `public/images/DAXHeikenAshi2026JunJul.png` - DAX Heiken Ashi chart showing 18 June to 19 July TP cluster (Method page)
+- `public/images/DAXHeikenAshi2026Aug18.png` - DAX Heiken Ashi chart showing 08-18 turning point (Method page)
+- `public/images/DAXHeikenAshi2026Sep09.png` - DAX Heiken Ashi chart showing 9 September trend line break and bear scenario (Method page)
 
 ## Legal and compliance notes
 
