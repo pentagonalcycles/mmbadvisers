@@ -191,14 +191,14 @@ export default function MethodPage() {
             Primary trend lines are important to evaluate and assess, as we proceed forward in time during the course of the year, which sub-set of our 12 TP candidate dates (reported in blue in the sub-title of the chart) are more likely to represent lows or highs. Let us analyse for example the situation as of close of business 31 March 2026, when we would have observed the chart reported below. This is the first date since the 27 Feb high that a price bar is located above the dotted orange trend line originating from the 27 Feb high. This is an indication to remove hedge overlay protection.
           </p>
           <a
-            href="/images/DAXHeikenAshi2026Q1.png"
+            href="/images/TrendlineAnalysis2026_01.png"
             target="_blank"
             rel="noopener noreferrer"
             className="block"
             aria-label="Open DAX Heiken Ashi chart full size"
           >
             <Image
-              src="/images/DAXHeikenAshi2026Q1.png"
+              src="/images/TrendlineAnalysis2026_01.png"
               alt="DAX Heiken Ashi chart from 1 January 2026 to 31 March 2026 showing trend line breakout indicating removal of hedge overlay protection"
               width={1200}
               height={800}
@@ -209,14 +209,14 @@ export default function MethodPage() {
             The next TP date was 05-05 (red bar in the chart below), resting on the red dashed downward trend line but above it, giving an indication on that day that the TP is likely a local low.
           </p>
           <a
-            href="/images/DAXHeikenAshi2026May05.png"
+            href="/images/TrendlineAnalysis2026_02.png"
             target="_blank"
             rel="noopener noreferrer"
             className="block"
             aria-label="Open DAX Heiken Ashi chart with 05-05 turning point full size"
           >
             <Image
-              src="/images/DAXHeikenAshi2026May05.png"
+              src="/images/TrendlineAnalysis2026_02.png"
               alt="DAX Heiken Ashi chart showing 05-05 turning point date resting on red dashed downward trend line"
               width={1200}
               height={800}
@@ -227,14 +227,14 @@ export default function MethodPage() {
             Next we have the cluster of 4 TP candidate dates in the 18 Jun to 19 Jul period (the 4 red candles in the chart). For the last of these 4 dates only, the chart below indicated a higher probability for the 19 Jul bar to be a local low rather than high.
           </p>
           <a
-            href="/images/DAXHeikenAshi2026JunJul.png"
+            href="/images/TrendlineAnalysis2026_03.png"
             target="_blank"
             rel="noopener noreferrer"
             className="block"
             aria-label="Open DAX Heiken Ashi chart with June-July turning point cluster full size"
           >
             <Image
-              src="/images/DAXHeikenAshi2026JunJul.png"
+              src="/images/TrendlineAnalysis2026_03.png"
               alt="DAX Heiken Ashi chart showing 18 June to 19 July turning point cluster with 19 July local low indication"
               width={1200}
               height={800}
@@ -245,14 +245,14 @@ export default function MethodPage() {
             Then we have 08-18 TP (red bar in the chart below), for which we do not have any particular indication as potential local low or high, since the price bar is not resting on any particular trend line.
           </p>
           <a
-            href="/images/DAXHeikenAshi2026Aug18.png"
+            href="/images/TrendlineAnalysis2026_04.png"
             target="_blank"
             rel="noopener noreferrer"
             className="block"
             aria-label="Open DAX Heiken Ashi chart with 08-18 turning point full size"
           >
             <Image
-              src="/images/DAXHeikenAshi2026Aug18.png"
+              src="/images/TrendlineAnalysis2026_04.png"
               alt="DAX Heiken Ashi chart showing 08-18 turning point date with no particular trend line indication"
               width={1200}
               height={800}
@@ -263,14 +263,14 @@ export default function MethodPage() {
             On Wed 9 Sept, DAX index price bar breaks below the dashed green trend line, representative of the primary bull market trend line, indicating (ex-post) 17-18 August price bars as local tops.
           </p>
           <a
-            href="/images/DAXHeikenAshi2026Sep09.png"
+            href="/images/TrendlineAnalysis2026_05.png"
             target="_blank"
             rel="noopener noreferrer"
             className="block"
             aria-label="Open DAX Heiken Ashi chart with 9 September trend line break full size"
           >
             <Image
-              src="/images/DAXHeikenAshi2026Sep09.png"
+              src="/images/TrendlineAnalysis2026_05.png"
               alt="DAX Heiken Ashi chart showing 9 September break below primary bull market trend line indicating 17-18 August local tops"
               width={1200}
               height={800}
