@@ -13,12 +13,31 @@ Deployment: Vercel auto-deploy on push to `main`
 - Track record page now displays dial and chart visuals for 2020, 2022, 2025, and 2026 Q1.
 - Method page updated with Summary section cross-referencing all 4 core proprietary charts for 2026 predictions, plus final advisory service paragraph.
 - Method page now includes tail-risk turning point candidates table as a PNG image at the bottom.
-- Method page now includes a new "Rules for Removal of Hedge Overlay Protection and High/Low Evaluation of TP Candidate Dates" section at the bottom, with commentary and five DAX Heiken Ashi charts covering 31 Mar, 05-05, 18 Jun-19 Jul, 08-18, and 09 Sep 2026 signals.
+- Method page now includes an "Integration of TP Candidate Dates with Primary Trendlines Analysis" section at the bottom, with commentary and five DAX Heiken Ashi charts covering 31 Mar, 05-05, 18 Jun-19 Jul, 08-18, and 09 Sep 2026 signals.
 - README and session notes updated to reflect the new method page section and image assets.
 - Typos and grammar corrected across method, service, and site content files.
 
 ## Latest Commits
 
+- `bc3f9d1` - fix: specify September 2026 in final sentence
+- `f9bbccb` - fix: expand primary trend lines introduction
+- `71d8f24` - fix: add RF oscillator cross-reference to 9 Sept sentence
+- `a020b95` - fix: simplify 9 Sept trend line break wording
+- `5b520bf` - fix: add as of end of September timing to final sentence
+- `3fe3600` - fix: reword 05-05 TP commentary
+- `3fe41bc` - fix: add retracement rationale for 19 Jul local low
+- `ecaac23` - fix: expand hedge overlay removal rationale
+- `cd9658a` - fix: shorten primary trend bull/bear wording
+- `3bf79df` - fix: tighten final bear territory sentence
+- `914e255` - fix: remove redundant red bar in chart below wording
+- `ee19447` - fix: specify hedge overlay removal on that candle
+- `4556c71` - fix: reword proceed to move forward in time
+- `818dbee` - fix: reword sub trend lines as geometric expansions
+- `9b53eb4` - fix: specify sloped trend lines
+- `0c31703` - fix: clarify TP candidate dates trading day wording
+- `89cfa32` - feat: replace trendline analysis charts with today's screenshots
+- `46e4f3c` - feat: expand 31 March 2026 trendline commentary
+- `0f30fd5` - feat: update method page section title and add trendline intro
 - `a85d998` - feat: add September trend line break chart and bear scenario conclusion to method page
 - `56974f7` - feat: add 08-18 turning point chart and commentary to method page
 - `e0cbb3f` - feat: add June-July TP cluster chart and commentary to method page
@@ -49,11 +68,11 @@ Deployment: Vercel auto-deploy on push to `main`
 ## Files Recently Changed
 
 - `app/method/page.tsx`
-- `public/images/DAXHeikenAshi2026Q1.png`
-- `public/images/DAXHeikenAshi2026May05.png`
-- `public/images/DAXHeikenAshi2026JunJul.png`
-- `public/images/DAXHeikenAshi2026Aug18.png`
-- `public/images/DAXHeikenAshi2026Sep09.png`
+- `public/images/TrendlineAnalysis2026_01.png`
+- `public/images/TrendlineAnalysis2026_02.png`
+- `public/images/TrendlineAnalysis2026_03.png`
+- `public/images/TrendlineAnalysis2026_04.png`
+- `public/images/TrendlineAnalysis2026_05.png`
 - `README.md`
 - `nextsession.md`
 - `public/images/mytable.png`
@@ -77,7 +96,7 @@ When resuming, check whether these should be kept, committed, or cleaned up. `Lo
 
 ## Suggested First Checks Next Session
 
-1. Verify method page renders correctly with the new RULES FOR REMOVAL OF HEDGE OVERLAY PROTECTION section and all five DAX Heiken Ashi charts at `https://mmb-advisers.com/method`.
+1. Verify method page renders correctly with the "Integration of TP Candidate Dates with Primary Trendlines Analysis" section and all five DAX Heiken Ashi charts at `https://mmb-advisers.com/method`.
 2. Confirm all text reads cleanly without typos.
 3. Decide whether to commit/ignore the remaining local `images/` changes.
 4. If contact form should send emails, implement backend handling (currently UI-only form).
