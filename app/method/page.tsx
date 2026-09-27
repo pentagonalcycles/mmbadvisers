@@ -196,6 +196,24 @@ export default function MethodPage() {
               className="h-auto w-full rounded-md border border-[var(--line)] transition hover:opacity-80"
             />
           </a>
+          <p>
+            The next TP date was 05-05 (red bar in the chart below), resting on the red dashed downward trend line but above it, giving an indication on that day that the TP is likely a local low.
+          </p>
+          <a
+            href="/images/DAXHeikenAshi2026May05.png"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+            aria-label="Open DAX Heiken Ashi chart with 05-05 turning point full size"
+          >
+            <Image
+              src="/images/DAXHeikenAshi2026May05.png"
+              alt="DAX Heiken Ashi chart showing 05-05 turning point date resting on red dashed downward trend line"
+              width={1200}
+              height={800}
+              className="h-auto w-full rounded-md border border-[var(--line)] transition hover:opacity-80"
+            />
+          </a>
         </div>
       </div>
     </section>
