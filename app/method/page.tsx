@@ -260,7 +260,7 @@ export default function MethodPage() {
             />
           </a>
           <p>
-            On Wed 9 Sept, DAX index price bar breaks below the primary trend bull line, indicating (ex-post) 17-18 August price bars as local tops.
+            On Wed 9 Sept, DAX index price bar breaks below the primary trend bull line, indicating (ex-post, when solely looking at primary trend, although predicted as potential high area by our RF oscillator chart) 17-18 August price bars as local tops.
           </p>
           <a
             href="/images/TrendlineAnalysis2026_05.png"
