@@ -173,6 +173,30 @@ export default function MethodPage() {
             />
           </a>
         </div>
+
+        <div className="mt-12 space-y-4 text-[var(--muted)]">
+          <h2 className="text-2xl" style={{ fontFamily: "var(--font-heading)" }}>
+            RULES FOR REMOVAL OF HEDGE OVERLAY PROTECTION
+          </h2>
+          <p>
+            The chart below would have been taken as of the close of business 31 March 2026. This is the first date since the 27 Feb high that a price bar is located above the dotted orange trend line originating from the 27 Feb high. This is an indication to remove hedge overlay protection.
+          </p>
+          <a
+            href="/images/DAXHeikenAshi2026Q1.png"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+            aria-label="Open DAX Heiken Ashi chart full size"
+          >
+            <Image
+              src="/images/DAXHeikenAshi2026Q1.png"
+              alt="DAX Heiken Ashi chart from 1 January 2026 to 31 March 2026 showing trend line breakout indicating removal of hedge overlay protection"
+              width={1200}
+              height={800}
+              className="h-auto w-full rounded-md border border-[var(--line)] transition hover:opacity-80"
+            />
+          </a>
+        </div>
       </div>
     </section>
   );
