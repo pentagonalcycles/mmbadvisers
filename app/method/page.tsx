@@ -188,7 +188,7 @@ export default function MethodPage() {
             NB: this type of geometric trend lines configurations are NOT drawn on the price chart subjectively and can NEVER be revised ex-post.
           </p>
           <p>
-            Primary trend lines are important to evaluate and assess, as we move forward in time during the course of the year, which sub-set of our 12 TP candidate dates (reported in blue in the sub-title of the chart) are more likely to represent lows or highs. Let us analyse for example the situation as of close of business 31 March 2026, when we would have observed the chart reported below. This is the first date since the 27 Feb high that a price bar is located above the dotted orange trend line originating from the 27 Feb high. This is an indication to remove hedge overlay protection.
+            Primary trend lines are important to evaluate and assess, as we move forward in time during the course of the year, which sub-set of our 12 TP candidate dates (reported in blue in the sub-title of the chart) are more likely to represent lows or highs. Let us analyse for example the situation as of close of business 31 March 2026, when we would have observed the chart reported below. This is the first date since the 27 Feb high that a price bar is located above the dotted orange trend line originating from the 27 Feb high. This is an indication to remove hedge overlay protection, on that candle.
           </p>
           <a
             href="/images/TrendlineAnalysis2026_01.png"
