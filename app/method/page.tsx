@@ -224,7 +224,7 @@ export default function MethodPage() {
             />
           </a>
           <p>
-            Next we have the cluster of 4 TP candidate dates in the 18 Jun to 19 Jul period (the 4 red candles in the chart). For the last of these 4 dates only, the chart below indicated a higher probability for the 19 Jul bar to be a local low rather than high.
+            Next we have the cluster of 4 TP candidate dates in the 18 Jun to 19 Jul period (the 4 red candles in the chart). For the last of these 4 dates only, the chart below indicated a higher probability for the 19 Jul bar to be a local low rather than high, as price bars have retraced reaching a level close to the primary bull trend line (while still remaining above it).
           </p>
           <a
             href="/images/TrendlineAnalysis2026_03.png"
