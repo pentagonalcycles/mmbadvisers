@@ -174,10 +174,10 @@ export default function MethodPage() {
           </a>
         </div>
 
-        <div className="mt-12 space-y-4 text-[var(--muted)]">
-          <h2 className="text-2xl" style={{ fontFamily: "var(--font-heading)" }}>
-            RULES FOR REMOVAL OF HEDGE OVERLAY PROTECTION
-          </h2>
+        <h2 className="mt-12 text-2xl" style={{ fontFamily: "var(--font-heading)" }}>
+          RULES FOR REMOVAL OF HEDGE OVERLAY PROTECTION
+        </h2>
+        <div className="mt-4 space-y-4 text-[var(--muted)]">
           <p>
             The chart below would have been seen as of the close of business 31 March 2026. This is the first date since the 27 Feb high that a price bar is located above the dotted orange trend line originating from the 27 Feb high. This is an indication to remove hedge overlay protection.
           </p>
