@@ -206,7 +206,7 @@ export default function MethodPage() {
             />
           </a>
           <p>
-            The next TP date was 05-05 (red bar in the chart below), resting on the red dashed downward trend line but above it, giving an indication on that day that the TP is likely a local low.
+            The next TP date was 05-05, resting on the red dashed downward trend line but above it, giving an indication on that day that the TP is likely a local low.
           </p>
           <a
             href="/images/TrendlineAnalysis2026_02.png"
@@ -242,7 +242,7 @@ export default function MethodPage() {
             />
           </a>
           <p>
-            Then we have 08-18 TP (red bar in the chart below), for which we do not have any particular indication as potential local low or high, since the price bar is not resting on any particular trend line.
+            Then we have 08-18 TP, for which we do not have any particular indication as potential local low or high, since the price bar is not resting on any particular trend line.
           </p>
           <a
             href="/images/TrendlineAnalysis2026_04.png"
