@@ -206,7 +206,7 @@ export default function MethodPage() {
             />
           </a>
           <p>
-            The next TP date was 05-05, resting on the red dashed downward trend line but above it, giving an indication on that day that the TP is likely a local low.
+            The next TP date was on 05-05, resting and the the bear primary trend line but above it, giving an indication of a low configuration as more likely.
           </p>
           <a
             href="/images/TrendlineAnalysis2026_02.png"
