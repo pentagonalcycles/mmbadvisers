@@ -250,6 +250,27 @@ export default function MethodPage() {
               className="h-auto w-full rounded-md border border-[var(--line)] transition hover:opacity-80"
             />
           </a>
+          <p>
+            On Wed 9 Sept, DAX index price bar breaks below the dashed green trend line, representative of the primary bull market trend line, indicating (ex-post) 17-18 August price bars as local tops.
+          </p>
+          <a
+            href="/images/DAXHeikenAshi2026Sep09.png"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+            aria-label="Open DAX Heiken Ashi chart with 9 September trend line break full size"
+          >
+            <Image
+              src="/images/DAXHeikenAshi2026Sep09.png"
+              alt="DAX Heiken Ashi chart showing 9 September break below primary bull market trend line indicating 17-18 August local tops"
+              width={1200}
+              height={800}
+              className="h-auto w-full rounded-md border border-[var(--line)] transition hover:opacity-80"
+            />
+          </a>
+          <p>
+            DAX index in bear scenario as of the end of September, which continue to hold true until price bars continue to gravitate below the primary bear local trend indicated by the dashed red local trend line originating from 28Aug double top configuration aligned with our 17-18Aug TP candidate date.
+          </p>
         </div>
       </div>
     </section>
