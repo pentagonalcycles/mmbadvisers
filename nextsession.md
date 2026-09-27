@@ -13,7 +13,7 @@ Deployment: Vercel auto-deploy on push to `main`
 - Track record page now displays dial and chart visuals for 2020, 2022, 2025, and 2026 Q1.
 - Method page updated with Summary section cross-referencing all 4 core proprietary charts for 2026 predictions, plus final advisory service paragraph.
 - Method page now includes tail-risk turning point candidates table as a PNG image at the bottom.
-- Method page now includes a new "RULES FOR REMOVAL OF HEDGE OVERLAY PROTECTION" section at the bottom, with commentary and five DAX Heiken Ashi charts covering 31 Mar, 05-05, 18 Jun-19 Jul, 08-18, and 09 Sep 2026 signals.
+- Method page now includes a new "Rules for Removal of Hedge Overlay Protection and High/Low Evaluation of TP Candidate Dates" section at the bottom, with commentary and five DAX Heiken Ashi charts covering 31 Mar, 05-05, 18 Jun-19 Jul, 08-18, and 09 Sep 2026 signals.
 - README and session notes updated to reflect the new method page section and image assets.
 - Typos and grammar corrected across method, service, and site content files.
 

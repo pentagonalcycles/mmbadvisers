@@ -12,7 +12,7 @@ Minimal Next.js website for MMB Advisers risk management advisory service.
 
 - `app/page.tsx` - Home page (value proposition, outcomes, CTA)
 - `app/service/page.tsx` - Service overview for TP Dates CP
-- `app/method/page.tsx` - High-level methodology framework with 4 core proprietary indicator charts, commentaries, summary cross-referencing all indicators, tail-risk turning point candidates table, and a "Rules for Removal of Hedge Overlay Protection" walk-through with DAX Heiken Ashi charts
+- `app/method/page.tsx` - High-level methodology framework with 4 core proprietary indicator charts, commentaries, summary cross-referencing all indicators, tail-risk turning point candidates table, and a "Rules for Removal of Hedge Overlay Protection and High/Low Evaluation of TP Candidate Dates" walk-through with DAX Heiken Ashi charts
 - `app/track-record/page.tsx` - Historical ex-ante windows with dial and chart visuals (2020, 2022, 2025, 2026)
 - `app/about/page.tsx` - Professional background and credibility
 - `app/contact/page.tsx` - Contact details, enquiry form, server-action submit handling, and clickable logo preview

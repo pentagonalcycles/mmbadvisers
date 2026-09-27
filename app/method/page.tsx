@@ -175,7 +175,7 @@ export default function MethodPage() {
         </div>
 
         <h2 className="mt-12 text-2xl" style={{ fontFamily: "var(--font-heading)" }}>
-          RULES FOR REMOVAL OF HEDGE OVERLAY PROTECTION
+          Rules for Removal of Hedge Overlay Protection and High/Low Evaluation of TP Candidate Dates
         </h2>
         <div className="mt-4 space-y-4 text-[var(--muted)]">
           <p>
