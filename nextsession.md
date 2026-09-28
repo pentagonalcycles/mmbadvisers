@@ -1,6 +1,6 @@
 # Next Session Notes (MMB Advisers)
 
-Date: 2026-09-27
+Date: 2026-09-28
 Repo: `pentagonalcycles/mmbadvisers`
 Branch: `main`
 Deployment: Vercel auto-deploy on push to `main`
@@ -14,11 +14,17 @@ Deployment: Vercel auto-deploy on push to `main`
 - Method page updated with Summary section cross-referencing all 4 core proprietary charts for 2026 predictions, plus final advisory service paragraph.
 - Method page now includes tail-risk turning point candidates table as a PNG image at the bottom.
 - Method page now includes an "Integration of TP Candidate Dates with Primary Trendlines Analysis" section at the bottom, with commentary and five DAX Heiken Ashi charts covering 31 Mar, 05-05, 18 Jun-19 Jul, 08-18, and 09 Sep 2026 signals.
+- Method page copy further refined on 2026-09-28: fixed typos ("protectio", "and the the", "Dax"), improved sentence structure, and clarified tail-risk wording.
+- Vercel auto-deploy succeeded for the latest `main` commit; live site at `https://mmb-advisers.com/method` reflects the updates.
+- Two-factor authentication enabled on the Vercel account for extra dashboard security; recovery codes stored outside the repo.
 - README and session notes updated to reflect the new method page section and image assets.
 - Typos and grammar corrected across method, service, and site content files.
 
 ## Latest Commits
 
+- `2931c2d` - Edit and improve method page copy
+- `cd59734` - Emphasize tail risk applies to entire 2026 calendar year
+- `7c4916a` - Expand trend line rationale and add Q4 tail risk note
 - `bc3f9d1` - fix: specify September 2026 in final sentence
 - `f9bbccb` - fix: expand primary trend lines introduction
 - `71d8f24` - fix: add RF oscillator cross-reference to 9 Sept sentence
@@ -96,7 +102,7 @@ When resuming, check whether these should be kept, committed, or cleaned up. `Lo
 
 ## Suggested First Checks Next Session
 
-1. Verify method page renders correctly with the "Integration of TP Candidate Dates with Primary Trendlines Analysis" section and all five DAX Heiken Ashi charts at `https://mmb-advisers.com/method`.
-2. Confirm all text reads cleanly without typos.
+1. Verify method page renders correctly with the updated copy at `https://mmb-advisers.com/method`.
+2. Confirm the 2026-09-28 Vercel deployment remains stable and no new build errors appear.
 3. Decide whether to commit/ignore the remaining local `images/` changes.
 4. If contact form should send emails, implement backend handling (currently UI-only form).
