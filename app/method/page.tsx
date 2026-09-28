@@ -188,7 +188,7 @@ export default function MethodPage() {
             NB: this type of geometric trend lines configurations are NOT drawn on the price chart subjectively and can NEVER be revised ex-post.
           </p>
           <p>
-            Primary trend lines are an important tool to effectively integrate and further interpret the information provided by the 12 TP dial chart. These lines allow to evaluate and assess, as we move forward in time during the course of the year, which sub-set of our 12 TP candidate dates (reported in blue in the sub-title of the chart) are more important to focus upon as potential local low or high.
+            Primary trend lines are an important tool to effectively integrate and further interpret and expand on the information provided by the 12 TP dial chart. These lines allow to evaluate and assess, as we move forward in time during the course of the year, which sub-set of our 12 TP candidate dates (reported in blue in the sub-title of the chart) are more important to focus upon as potential local low or high.
           </p>
           <p>
             Let us analyse for example the situation as of close of business 31 March 2026, when we would have observed the chart reported below. This is the first date since the 27 Feb high that a price bar is located above the dotted orange trend line originating from the 27 Feb high. This is an indication to remove hedge overlay protectio, on that candle, as the price break out is also aligned with the following: (a) the index has already corrected by a meaningful amount (around 10%); (b) we are in a period of the year matching with the end of our first TP cluster period; (c) we are just at the beginning of the price reversal high probability period indicated by our Special Situations Volatility Fast Price Reversal chart.
@@ -281,7 +281,7 @@ export default function MethodPage() {
             />
           </a>
           <p>
-            As of the end of September 2026, DAX cash index remains in primary bear territory until price bars remain below the primary bear line associated with the 28 Aug double top configuration - aligned with our 18 Aug TP candidate date.
+            As of the end of September 2026, DAX cash index remains in primary bear territory until price bars remain below the primary bear line associated with the 28 Aug double top configuration - aligned with our 18 Aug TP candidate date. This just before markets are due to step into the last quarter of the year, which is predicted by our models to carry the highest level of tail risk for the 2026 calendar year.
           </p>
         </div>
       </div>
