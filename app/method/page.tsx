@@ -20,7 +20,7 @@ const charts = [
     image: "/images/HorizontalBoxesHeatmapChart.png",
     alt: "Horizontal boxes heatmap chart",
     description:
-      "None of our 4 core indicators provide any information at all on the level of intensity of a market correction / decline, APART from the Horizontal Boxes Heatmap chart. This means that if TP dates and RF Oscillator both agree on 26-27 Feb as high probability turning point date for a price reversal to the downside (local top), none of the indicators will know in advance the level of intensity of the decline (so, it could be just a -5% or -10%, or any other percentage value). With the Horizontal Boxes Heatmap indicator, we still will not know the exact value of the decline but we will be able to assess in which time windows the intensity of the decline will be higher - this is still very useful information to have. In this Gantt chart, boxes of various colours indicate periods in time where risks for a market decline (specifically) are more active (activated). When a large number of these boxes display a pattern of \"stacking\" above each other, like during the mid Sep 2026 to the end of the year underlined by the large rectangular red box, that is when the risks of downside / market crash are highest (according to our research / analyses). In this respect, the period starting from around mid September to the end of the year shows much more intense risk, compared to the period from the beginning of May to mid September where horizontal boxes are very sparse (lack of intensity) and not stacking above each other. Among all months in the year, the month of November appears to be of the greatest intensity / risk. And this is during a time window in which there is a very high level of convergence with the inference drawn from the previous two charts / indicators.",
+      "None of our 4 core indicators provide any information at all on the level of intensity of a market correction / decline, APART from the Horizontal Boxes Heatmap chart. This means that if TP dates and RF Oscillator both agree on 26-27 Feb as high probability turning point date for a price reversal to the downside (local top), none of the indicators will know in advance the level of intensity of the decline (so, it could be just a -5% or -10%, or any other percentage value). With the Horizontal Boxes Heatmap indicator, we still will not know the exact value of the decline but we will be able to assess in which time windows the intensity of the decline will be higher - this is still very useful information to have. In this Gantt chart, boxes of various colours indicate periods in time where risks for a market decline (specifically) are more active (activated). When a large number of these boxes display a pattern of \"stacking\" above each other, like during the mid Sep 2026 to the end of the year underlined by the large rectangular red box, that is when the risks of downside / market crash are highest (according to our research / analyses). In this respect, the period starting from around mid September to the end of the year shows much more intense risk, compared to the period from the beginning of May to mid September where horizontal boxes are very sparse (lack of intensity) and not stacking above each other. Among all months in the year, the month of November appears to be of the greatest intensity / risk, and this is during a time window in which there is a very high level of convergence with the inference drawn from the previous two charts / indicators.",
   },
   {
     title: "The Special Situations Volatility Fast Price Reversal",
@@ -80,8 +80,8 @@ export default function MethodPage() {
           </p>
           <p>
             We rely on a set of four core proprietary indicators to map out an ex-ante roadmap for the most
-            important risk periods faced by stock markets during the course of each forthcoming calendar year. We have
-            therefore a set of 4 core charts, all of which are calculated at the end of each calendar year,
+            important risk periods faced by stock markets during the course of each forthcoming calendar year. We therefore have
+            a set of four core charts, all of which are calculated at the end of each calendar year,
             providing a roadmap view for the risks ahead. Also, all our core charts are derived by completely independent calculations, which means that results are reinforced in the presence of convergence - e.g. two or more charts pointing to the same time windows and / or conclusions.
           </p>
         </div>
@@ -126,33 +126,32 @@ export default function MethodPage() {
           </p>
           <p>
             Taking the 12 TP dates dial chart as our main reference starting point, we have 3 clusters
-            located at: last month of Q1, early summer (mid June to first week of July) and the Fall (20 Oct - 30 Nov).
+            located at: the last month of Q1, early summer (mid June to first week of July) and the Fall (20 Oct - 30 Nov).
           </p>
           <p>
-            The early summer cluster is not validated by the heatmap chart displaying extreme sparsity of
-            horizontal boxes, indicating lack of severe bear market pressure / activity during the period May to mid September. The Fall cluster,
+            The early-summer cluster is not validated by the heatmap chart, which shows extreme sparsity of
+            horizontal boxes, indicating a lack of severe bear-market pressure during the May-to-mid-September period. The Fall cluster,
             on the contrary, is fully validated by the heatmap chart as a time window of high probability
             market crash risk. The Q1 cluster is validated by the RF oscillator assigning high probability
             for top formation around the end of February.
           </p>
           <p>
-            The Special Situations fast price reversals chart indicates that if the end of February local top prediction is confirmed in practice (which
-            ex-post it was, as we are writing this on Sunday Sep 13 2026), then fast price reversals time
-            window period of April-May strictly recommend hedge overlay off action - no shorting of futures
-            to take place to protect the long portfolio holdings / investments. The same recommendation continues through
+            The Special Situations fast price reversals chart indicates that if the end-of-February local-top prediction is confirmed in practice (which
+            ex-post it was, as we are writing this on Sunday Sep 13 2026), then the April–May fast-price-reversal window strictly recommends switching the hedge overlay off - i.e. no shorting of futures
+            to protect the long portfolio holdings / investments. The same recommendation continues through
             the June to August months due to lack of heatmap chart bear intensity.
           </p>
           <p>
-            Among the two dates in the 12 TP dial chart falling outside the three clusters, the 18-08 date is validated by the RF Oscillator 19-08 prediction as potential high.
+            Of the two dates in the 12 TP dial chart falling outside the three clusters, the 18-08 date is validated by the RF Oscillator 19-08 prediction as a potential high.
           </p>
           <p>
             In summary, the dates to initiate
-            hedge overlay on tail risk protection in 2026 are predicted to be: end of February, beginning of September and
-            mid October (also looking at the RF chart). Probability of a market crash is very high in the
+            the hedge overlay for tail-risk protection in 2026 are predicted to be: end of February, beginning of September and
+            mid October (also looking at the RF chart). The probability of a market crash is very high in the
             last quarter of the year - with month of November looking particularly severe.
           </p>
           <p>
-            We would like to draw attention to how our advisory service prompts to just a few focused decisions during the course of each calendar year, which have the potential to secure large pay-offs to the institutional investor - with maximum possible reward given by the amount of AUM multiplied by the percentage points of the crash, for every correctly predicted crash time window.
+            Our advisory service prompts only a few focused decisions each calendar year, each with the potential to generate large payoffs for the institutional investor - with maximum possible reward given by the amount of AUM multiplied by the percentage points of the crash, for every correctly predicted crash time window.
           </p>
         </div>
 
@@ -179,19 +178,19 @@ export default function MethodPage() {
         </h2>
         <div className="mt-4 space-y-4 text-[var(--muted)]">
           <p>
-            In the sequence of charts reported below, daily price bars for the Dax cash index (our reference index for stock markets tail risk evaluation, together with SPX and NDX indices in the USA) are drawn in: black in bull trading days; dark grey in bear days; and dark red when corresponding to one of our TP candidate dates trading day.
+            In the sequence of charts reported below, daily price bars for the DAX cash index (our reference index for stock markets tail risk evaluation, together with SPX and NDX indices in the USA) are drawn in: black in bull trading days; dark grey in bear days; and dark red when corresponding to one of our TP candidate dates trading day.
           </p>
           <p>
-            Sloped green and red dashed lines in the chart display the &quot;primary active trend&quot; lines (green = primary trend is bull, red = primary trend is bear), drawn from major local lows / highs, while the orange dotted sub trend lines represent fixed geometric expansions associated to the primary trend lines.
+            Green and red dashed lines in the chart display the &quot;primary active trend&quot; lines (green = primary trend is bull, red = primary trend is bear), drawn from major local lows / highs, while the orange dotted sub-trend lines represent fixed geometric expansions associated with the primary trend lines.
           </p>
           <p>
-            NB: this type of geometric trend lines configurations are NOT drawn on the price chart subjectively and can NEVER be revised ex-post.
+            NB: this type of geometric trend-line configuration is NOT drawn on the price chart subjectively and can NEVER be revised ex-post.
           </p>
           <p>
-            Primary trend lines are an important tool to effectively integrate and further interpret and expand on the information provided by the 12 TP dial chart. These lines allow to evaluate and assess, as we move forward in time during the course of the year, which sub-set of our 12 TP candidate dates (reported in blue in the sub-title of the chart) are more important to focus upon as potential local low or high.
+            Primary trend lines are an important tool to effectively integrate and further interpret and expand on the information provided by the 12 TP dial chart. These lines allow us to evaluate and assess, as we move forward in time during the course of the year, which subset of our 12 TP candidate dates (reported in blue in the sub-title of the chart) are more important to focus on as potential local low or high.
           </p>
           <p>
-            Let us analyse for example the situation as of close of business 31 March 2026, when we would have observed the chart reported below. This is the first date since the 27 Feb high that a price bar is located above the dotted orange trend line originating from the 27 Feb high. This is an indication to remove hedge overlay protectio, on that candle, as the price break out is also aligned with the following: (a) the index has already corrected by a meaningful amount (around 10%); (b) we are in a period of the year matching with the end of our first TP cluster period; (c) we are just at the beginning of the price reversal high probability period indicated by our Special Situations Volatility Fast Price Reversal chart.
+            Let us analyse, for example, the situation as of close of business 31 March 2026, when we would have observed the chart reported below. This is the first date since the 27 Feb high that a price bar is located above the dotted orange trend line originating from the 27 Feb high. This is an indication to remove hedge overlay protection on that candle, as the price breakout is also aligned with the following: (a) the index has already corrected by a meaningful amount (around 10%); (b) we are in a period of the year matching with the end of our first TP cluster period; (c) we are just at the beginning of the high-probability price-reversal period indicated by our Special Situations Volatility Fast Price Reversal chart.
           </p>
           <a
             href="/images/TrendlineAnalysis2026_01.png"
@@ -209,7 +208,7 @@ export default function MethodPage() {
             />
           </a>
           <p>
-            The next TP date was on 05-05, resting and the the bear primary trend line but above it, giving an indication of a low configuration as more likely.
+            The next TP date was on 05-05, resting on the bear primary trend line but above it, giving an indication of a low configuration as more likely.
           </p>
           <a
             href="/images/TrendlineAnalysis2026_02.png"
@@ -227,7 +226,7 @@ export default function MethodPage() {
             />
           </a>
           <p>
-            Next we have the cluster of 4 TP candidate dates in the 18 Jun to 19 Jul period (the 4 red candles in the chart). For the last of these 4 dates only, the chart below indicated a higher probability for the 19 Jul bar to be a local low rather than high, as price bars have retraced reaching a level close to the primary bull trend line (while still remaining above it).
+            Next we have the cluster of 4 TP candidate dates in the 18 Jun to 19 Jul period (the 4 red candles in the chart). For the last of these 4 dates only, the chart below indicated a higher probability for the 19 Jul bar to be a local low rather than a high, as price bars retraced to a level close to the primary bull trend line, while still remaining above it.
           </p>
           <a
             href="/images/TrendlineAnalysis2026_03.png"
@@ -245,7 +244,7 @@ export default function MethodPage() {
             />
           </a>
           <p>
-            Then we have 08-18 TP, for which we do not have any particular indication as potential local low or high, since the price bar is not resting on any particular trend line.
+            Then we have the 08-18 TP, for which we do not have any particular indication as potential local low or high, since the price bar is not resting on any particular trend line.
           </p>
           <a
             href="/images/TrendlineAnalysis2026_04.png"
@@ -263,7 +262,7 @@ export default function MethodPage() {
             />
           </a>
           <p>
-            On Wed 9 Sept, DAX index price bar breaks below the primary trend bull line, indicating (ex-post, when solely looking at primary trend, although predicted as potential high area by our RF oscillator chart) 17-18 August price bars as local tops.
+            On Wednesday 9 September, the DAX price bar broke below the primary bull trend line, indicating the 17-18 August price bars as local tops ex-post from a pure trend-line perspective, even though the RF oscillator had predicted the area only as a potential high.
           </p>
           <a
             href="/images/TrendlineAnalysis2026_05.png"
@@ -281,7 +280,7 @@ export default function MethodPage() {
             />
           </a>
           <p>
-            As of the end of September 2026, DAX cash index remains in primary bear territory until price bars remain below the primary bear line associated with the 28 Aug double top configuration - aligned with our 18 Aug TP candidate date. This just before markets are due to step into the last quarter of the year, which is predicted by our models to carry the highest level of tail risk for the entire 2026 calendar year.
+            As of the end of September 2026, DAX cash index remains in primary bear territory while price bars remain below the primary bear line associated with the 28 Aug double top configuration - aligned with our 18 Aug TP candidate date. This comes just before markets are due to step into the last quarter of the year, which is predicted by our models to carry the highest level of tail risk for the entire 2026 calendar year.
           </p>
         </div>
       </div>
