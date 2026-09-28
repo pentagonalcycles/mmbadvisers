@@ -281,7 +281,7 @@ export default function MethodPage() {
             />
           </a>
           <p>
-            As of the end of September 2026, DAX cash index remains in primary bear territory until price bars remain below the primary bear line associated with the 28 Aug double top configuration - aligned with our 18 Aug TP candidate date. This just before markets are due to step into the last quarter of the year, which is predicted by our models to carry the highest level of tail risk for the 2026 calendar year.
+            As of the end of September 2026, DAX cash index remains in primary bear territory until price bars remain below the primary bear line associated with the 28 Aug double top configuration - aligned with our 18 Aug TP candidate date. This just before markets are due to step into the last quarter of the year, which is predicted by our models to carry the highest level of tail risk for the entire 2026 calendar year.
           </p>
         </div>
       </div>
