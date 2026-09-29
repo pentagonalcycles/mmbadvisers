@@ -31,6 +31,9 @@ Deployment: Vercel auto-deploy on push to `main`
 
 ## Latest Commits
 
+- `846560a` - fix: remove .tex source download link from One Pager page
+- `4817c11` - fix: move One Pager link before About in navigation
+- `db9b5a8` - docs: update README and session notes for One Pager
 - `ca4fce9` - Add One Pager page, PDF and LaTeX source
 - `2931c2d` - Edit and improve method page copy
 - `cd59734` - Emphasize tail risk applies to entire 2026 calendar year
@@ -87,19 +90,17 @@ Deployment: Vercel auto-deploy on push to `main`
 - `public/downloads/mmb-advisers-onepager.pdf`
 - `public/downloads/mmb-advisers-onepager.tex`
 - `components/nav.tsx`
-- `README.md`
-- `nextsession.md`
 - `app/method/page.tsx`
 - `public/images/TrendlineAnalysis2026_01.png`
 - `public/images/TrendlineAnalysis2026_02.png`
 - `public/images/TrendlineAnalysis2026_03.png`
 - `public/images/TrendlineAnalysis2026_04.png`
 - `public/images/TrendlineAnalysis2026_05.png`
-- `README.md`
-- `nextsession.md`
 - `public/images/mytable.png`
 - `app/service/page.tsx`
 - `content/site.ts`
+- `README.md`
+- `nextsession.md`
 
 ## Working Tree Note
 
@@ -118,7 +119,8 @@ When resuming, check whether these should be kept, committed, or cleaned up. `Lo
 
 ## Suggested First Checks Next Session
 
-1. Verify method page renders correctly with the updated copy at `https://mmb-advisers.com/method`.
-2. Confirm the 2026-09-28 Vercel deployment remains stable and no new build errors appear.
-3. Decide whether to commit/ignore the remaining local `images/` changes.
-4. If contact form should send emails, implement backend handling (currently UI-only form).
+1. Verify the new One Pager page renders correctly at `https://mmb-advisers.com/onepager`, including the PDF download link and navigation order.
+2. Verify method page renders correctly with the updated copy at `https://mmb-advisers.com/method`.
+3. Confirm the latest Vercel deployment remains stable and no new build errors appear.
+4. Decide whether to commit/ignore the remaining local `images/` changes.
+5. If contact form should send emails, implement backend handling (currently UI-only form).
