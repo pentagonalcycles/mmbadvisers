@@ -185,7 +185,7 @@ export default function OnePagerPage() {
               <ul className="mt-3 list-disc space-y-2 pl-5 text-[var(--muted)]">
                 <li>
                   30+ years in quantitative research and risk management; PhD in Statistics &
-                  Econometrics, London School of Economics
+                  Econometrics, London School of Economics (European Doctoral Programme)
                 </li>
                 <li>
                   Former Bank of England, Barclays Capital (Director) and Citi (VP); co-manager of a
