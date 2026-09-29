@@ -15,7 +15,7 @@ Minimal Next.js website for MMB Advisers risk management advisory service.
 - `app/method/page.tsx` - High-level methodology framework with 4 core proprietary indicator charts, commentaries, summary cross-referencing all indicators, tail-risk turning point candidates table, and an "Integration of TP Candidate Dates with Primary Trendlines Analysis" walk-through with DAX Heiken Ashi charts
 - `app/track-record/page.tsx` - Historical ex-ante windows with dial and chart visuals (2020, 2022, 2025, 2026)
 - `app/about/page.tsx` - Professional background and credibility
-- `app/onepager/page.tsx` - One-page summary of TP Dates CP (problem, solution, evidence, founder background, CTA), with download links for the PDF and LaTeX source; listed before About in the global navigation
+- `app/onepager/page.tsx` - One-page summary of TP Dates CP (problem, solution, evidence, founder background, CTA), with a download link for the PDF; listed before About in the global navigation
 - `app/contact/page.tsx` - Contact details, enquiry form, server-action submit handling, and clickable logo preview
 - `app/contact/sent/page.tsx` - Contact submission confirmation page (success/invalid states)
 - `components/nav.tsx` - Global top navigation
@@ -29,7 +29,7 @@ Minimal Next.js website for MMB Advisers risk management advisory service.
 - `public/images/mytable.png` - Tail-risk turning point candidates table for 2026 (Method page)
 - `public/images/TrendlineAnalysis2026_01.png` through `TrendlineAnalysis2026_05.png` - DAX Heiken Ashi charts for the "Integration of TP Candidate Dates with Primary Trendlines Analysis" walk-through (Method page): 31 March 2026 hedge overlay removal signal, 05-05 turning point, 18 June-19 July TP cluster, 08-18 turning point, and 9 September trend line break / bear scenario
 - `public/downloads/mmb-advisers-onepager.pdf` - Printable one-pager PDF (linked from the One Pager page)
-- `public/downloads/mmb-advisers-onepager.tex` - LaTeX source for the one-pager PDF (linked from the One Pager page)
+- `public/downloads/mmb-advisers-onepager.tex` - LaTeX source for the one-pager PDF (kept in repo but not exposed as a download link)
 
 ## Legal and compliance notes
 

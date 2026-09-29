@@ -39,22 +39,14 @@ export default function OnePagerPage() {
                 an orderly way instead of reacting under pressure.
               </p>
             </div>
-            <div className="flex flex-col gap-2 md:text-right">
+            <div className="md:text-right">
               <a
                 href="/downloads/mmb-advisers-onepager.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full bg-[#1B3A5C] px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:opacity-90"
+                className="inline-block rounded-full bg-[#1B3A5C] px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:opacity-90"
               >
                 Download PDF
-              </a>
-              <a
-                href="/downloads/mmb-advisers-onepager.tex"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full border border-[var(--line)] px-5 py-2.5 text-sm text-[var(--muted)] transition hover:text-[var(--text)]"
-              >
-                Download .tex source
               </a>
             </div>
           </div>

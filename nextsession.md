@@ -15,7 +15,7 @@ Deployment: Vercel auto-deploy on push to `main`
   - Who Is Behind It (founder background)
   - Next Step / CTA with contact details and link to the contact form
   - Legal disclaimer
-- One Pager page provides download links for both the PDF and its LaTeX source.
+- One Pager page provides a download link for the PDF; the LaTeX source remains in the repo but is not exposed as a download link.
 - PDF and `.tex` source copied into `public/downloads/` and committed.
 - Custom domain setup completed in Vercel + Namecheap.
 - Contact page updated with legal entity text, contact form, clickable logo.
