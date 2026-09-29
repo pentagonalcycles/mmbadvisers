@@ -1,6 +1,6 @@
 # Next Session Notes (MMB Advisers)
 
-Date: 2026-09-28
+Date: 2026-09-29
 Repo: `pentagonalcycles/mmbadvisers`
 Branch: `main`
 Deployment: Vercel auto-deploy on push to `main`
@@ -8,6 +8,15 @@ Deployment: Vercel auto-deploy on push to `main`
 ## Current Status
 
 - Website is live and publicly accessible.
+- New "One Pager" page added (`app/onepager/page.tsx`) between About and Contact in the global navigation.
+- One Pager page reproduces the content of `/home/marco/Downloads/mmb-advisers-onepager.pdf`:
+  - TP DATES CP header band
+  - The Problem, The Solution, The Evidence (including the 2026 windows table)
+  - Who Is Behind It (founder background)
+  - Next Step / CTA with contact details and link to the contact form
+  - Legal disclaimer
+- One Pager page provides download links for both the PDF and its LaTeX source.
+- PDF and `.tex` source copied into `public/downloads/` and committed.
 - Custom domain setup completed in Vercel + Namecheap.
 - Contact page updated with legal entity text, contact form, clickable logo.
 - Track record page now displays dial and chart visuals for 2020, 2022, 2025, and 2026 Q1.
@@ -22,6 +31,7 @@ Deployment: Vercel auto-deploy on push to `main`
 
 ## Latest Commits
 
+- `ca4fce9` - Add One Pager page, PDF and LaTeX source
 - `2931c2d` - Edit and improve method page copy
 - `cd59734` - Emphasize tail risk applies to entire 2026 calendar year
 - `7c4916a` - Expand trend line rationale and add Q4 tail risk note
@@ -73,6 +83,12 @@ Deployment: Vercel auto-deploy on push to `main`
 
 ## Files Recently Changed
 
+- `app/onepager/page.tsx`
+- `public/downloads/mmb-advisers-onepager.pdf`
+- `public/downloads/mmb-advisers-onepager.tex`
+- `components/nav.tsx`
+- `README.md`
+- `nextsession.md`
 - `app/method/page.tsx`
 - `public/images/TrendlineAnalysis2026_01.png`
 - `public/images/TrendlineAnalysis2026_02.png`
