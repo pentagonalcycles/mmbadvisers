@@ -1,0 +1,184 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[margin=1.2cm,top=1.2cm,bottom=1.2cm]{geometry}
+\usepackage[table]{xcolor}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tikz}
+\usepackage{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[lining]{ebgaramond}
+\usepackage[scaled=0.92]{helvet}
+\renewcommand{\sfdefault}{phv}
+\usepackage{microtype}
+\usepackage{hyperref}
+
+% ── Colours ──────────────────────────────────────────────
+\definecolor{navy}{HTML}{1B3A5C}
+\definecolor{gold}{HTML}{C9A84C}
+\definecolor{lightgrey}{HTML}{F5F5F5}
+\definecolor{midgrey}{HTML}{E0E0E0}
+\definecolor{footergrey}{HTML}{666666}
+\definecolor{captured}{HTML}{2E7D32}
+\definecolor{lowerconv}{HTML}{E65100}
+
+% ── Typography ───────────────────────────────────────────
+\renewcommand{\familydefault}{\rmdefault}
+\hypersetup{hidelinks, colorlinks=false}
+
+% ── Section formatting ───────────────────────────────────
+\titleformat{\section}
+  {\sffamily\bfseries\small\color{navy}}
+  {}
+  {0em}
+  {}
+  [\vspace{-0.6em}{\color{gold}\rule{\linewidth}{0.6pt}}]
+
+\titlespacing*{\section}{0pt}{0.6em}{0.25em}
+
+% ── No page numbers ──────────────────────────────────────
+\pagenumbering{gobble}
+
+\setlist[itemize]{leftmargin=1.0em, itemsep=1pt, parsep=0pt, topsep=2pt}
+
+\begin{document}
+
+% ══════════════════════════════════════════════════════════
+%  HEADER (navy band in page background)
+% ══════════════════════════════════════════════════════════
+\AddToHook{shipout/background}{%
+  \begin{tikzpicture}[remember picture, overlay]
+    \fill[navy] (current page.north west) rectangle
+      ([yshift=-3.0cm]current page.north east);
+  \end{tikzpicture}%
+}
+
+\vspace*{-0.8cm}
+\begin{flushleft}
+  {\fontsize{20}{24}\selectfont\bfseries\color{white}\sffamily TP DATES CP}\\[3pt]
+  {\color{white}\sffamily Turning Point Dates for Capital Protection\enspace$\cdot$\enspace Tail risk advisory for family offices and institutional investors}\\[4pt]
+  {\color{gold}\sffamily\footnotesize MMB Advisers Ltd\enspace$\cdot$\enspace London\enspace$\cdot$\enspace www.mmb-advisers.com}
+\end{flushleft}
+
+\vspace{0.25cm}
+
+% ══════════════════════════════════════════════════════════
+%  HEADLINE
+% ══════════════════════════════════════════════════════════
+\begin{flushleft}
+  {\fontsize{13}{15}\selectfont\bfseries\color{navy}\sffamily Protecting capital against market meltdowns}\\[3pt]
+  {\footnotesize An ex-ante tail risk service that tells portfolio managers \textbf{before} a drawdown, not after, so they can act in an orderly way instead of reacting under pressure.}
+\end{flushleft}
+
+\vspace{0.15cm}
+
+% ══════════════════════════════════════════════════════════
+%  THE PROBLEM
+% ══════════════════════════════════════════════════════════
+\section{THE PROBLEM}
+
+{\footnotesize Upside participation remains attractive, but valuations are stretched, leadership is concentrated in a handful of mega-caps, and geopolitical shocks arrive with little warning.\enspace Most risk tools are reactive: they confirm the damage after it has happened.\enspace And losses compound:
+
+\begin{center}
+\colorbox{lightgrey}{\parbox{0.88\linewidth}{\centering\sffamily\footnotesize
+  a \textbf{$-$20\%} drawdown needs \textbf{+25\%} to recover;\quad
+  a \textbf{$-$50\%} drawdown needs \textbf{+100\%}.
+}}
+\end{center}
+}
+
+% ══════════════════════════════════════════════════════════
+%  THE SOLUTION
+% ══════════════════════════════════════════════════════════
+\section{THE SOLUTION}
+
+{\footnotesize Each year MMB publishes, in advance, a calendar of \textbf{12 candidate turning-point dates} grouped into two or three high-risk windows.\enspace The calendar is set at the end of the prior year and \textbf{not revised} ($\pm$1 day).\enspace Four proprietary indicators (built on behavioural greed--fear cycles and machine learning) cross-check each window; conviction is highest where they agree.}
+
+\begin{itemize}
+  \item{\footnotesize Hedge overlay via liquid futures and options, \textbf{up to three times a year}}
+  \item{\footnotesize No liquidation of core long-term holdings (unless specifically preferred by the PM)}
+\end{itemize}
+
+% ══════════════════════════════════════════════════════════
+%  THE EVIDENCE
+% ══════════════════════════════════════════════════════════
+\section{THE EVIDENCE}
+
+{\footnotesize\textit{Live forecasts: the 2026 calendar was published at the end of 2025.}}
+
+\vspace{0.2em}
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+{\sffamily\footnotesize
+\begin{tabularx}{\linewidth}{l l >{\raggedright\arraybackslash}X c}
+\toprule
+\rowcolor{navy}
+\color{white}2026 window &
+\color{white}Dates &
+\color{white}What happened &
+\color{white}Outcome \\
+\midrule
+\rowcolor{lightgrey}
+Q1 \textperiodcentered Period 3 & 26 Feb\,--\,25 Mar &
+Tariff-driven correction: S\&P 500 c.\,$-$10\%, DAX $-$13.6\% &
+\textcolor{captured}{\textbf{Captured}} \\[2pt]
+\rowcolor{white}
+Q2 \textperiodcentered Period 2 & 18 Jun\,--\,19 Jul &
+Modest dip in the S\&P 500 ($-$3.2\%); sharper falls in the Nasdaq 100 (c.\,$-$10\%) and KOSPI (c.\,$-$30\%) &
+\textcolor{lowerconv}{\textbf{Timing right; size varied by market}} \\[2pt]
+\rowcolor{lightgrey}
+Q4 \textperiodcentered Period 1 & 24 Oct\,--\,30 Nov &
+Flagged by the Dial, RF Oscillator and heatmap; November viewed as particularly severe &
+\textcolor{navy}{\textbf{Highest conviction: ahead}} \\
+\bottomrule
+\end{tabularx}
+}
+\end{center}
+
+{\footnotesize\textbf{Back-tests:} flagged the 2020 COVID crash window and the 2025 tariff correction (S\&P 500 --21\%).\enspace In 2022 the model caught the Q1 and September declines but \textbf{missed the April--June fall}; that limit is disclosed and has not been fitted away.}
+
+\vspace{0.2em}
+{\footnotesize\textbf{Illustration:} for a hypothetical family office with \$100\,M in US equities, a modest overlay through the Q1 2026 window (40\% short futures, 20\% out-of-the-money puts) would have offset about \textbf{\$3.4\,M} of an \$8\,M drawdown for c.\,\$300\,K in option premium.}
+
+\vspace{0.2cm}
+
+% ══════════════════════════════════════════════════════════
+%  BOTTOM: WHO + CTA (side by side)
+% ══════════════════════════════════════════════════════════
+\noindent
+\begin{minipage}[t]{0.58\linewidth}
+\section{WHO IS BEHIND IT}
+
+{\footnotesize\textbf{Marco Bianchi, PhD}\enspace\textperiodcentered\enspace Founder, MMB Advisers Ltd}
+
+\vspace{0.15em}
+\begin{itemize}
+  {\footnotesize\item 30+ years in quantitative research and risk management;\enspace PhD in Statistics \& Econometrics, London School of Economics}
+  {\footnotesize\item Former Bank of England, Barclays Capital (Director) and Citi (VP);\enspace co-manager of a \$250M long/short European equity fund at Thames River Capital}
+  {\footnotesize\item Eurohedge Award winner (2003) and runner-up (2006) for systematic strategies:\enspace \textbf{20\% return / 0.50\% max drawdown} (Newman \& Ragazzi, 2003);\enspace \textbf{18.82\% / 2.04\%} (Thames River, 2006)}
+  {\footnotesize\item Published in the \textit{American Economic Review}, \textit{Journal of Applied Econometrics} and \textit{Journal of Business \& Economic Statistics}}
+\end{itemize}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.38\linewidth}
+\vspace{0pt}
+\begin{tikzpicture}
+  \node[fill=navy, text=white, rounded corners=4pt, inner sep=10pt,
+        text width=\linewidth, align=left, font=\sffamily\footnotesize] {
+    {\color{gold}\textbf{NEXT STEP}}\\[5pt]
+    Request a confidential briefing, including the current Q4 2026 outlook.\\[5pt]
+    Full methodology and track record\\[8pt]
+    \textbf{www.mmb-advisers.com}\\
+    marco@mmb-advisers.com\\
+    +44 7505 181967
+  };
+\end{tikzpicture}
+\end{minipage}
+
+\vspace{0.3cm}
+{\tiny\color{footergrey}\sffamily MMB Advisers Ltd, registered in England \& Wales (No.\ 07722496). MMB Advisers is not FCA registered and does not provide regulated investment advice; portfolio decisions and execution remain with the client and its regulated advisers. This document is for information only. Back-tested and illustrative results are hypothetical and do not represent actual client outcomes. Past performance is not a guide to future results.}
+
+\end{document}

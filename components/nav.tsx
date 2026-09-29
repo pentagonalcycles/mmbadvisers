@@ -7,6 +7,7 @@ const links = [
   { href: "/method", label: "Method" },
   { href: "/track-record", label: "Track Record" },
   { href: "/about", label: "About" },
+  { href: "/onepager", label: "One Pager" },
   { href: "/contact", label: "Contact" }
 ];
 
