@@ -8,7 +8,7 @@ Deployment: Vercel auto-deploy on push to `main`
 ## Current Status
 
 - Website is live and publicly accessible.
-- New "One Pager" page added (`app/onepager/page.tsx`) between About and Contact in the global navigation.
+- New "One Pager" page added (`app/onepager/page.tsx`) before About in the global navigation.
 - One Pager page reproduces the content of `/home/marco/Downloads/mmb-advisers-onepager.pdf`:
   - TP DATES CP header band
   - The Problem, The Solution, The Evidence (including the 2026 windows table)
