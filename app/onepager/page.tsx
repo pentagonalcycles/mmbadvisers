@@ -26,7 +26,7 @@ export default function OnePagerPage() {
           {/* Headline + downloads */}
           <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
             <div>
-              <p className="eyebrow">One Pager</p>
+              <p className="eyebrow">ONE PAGER (28 Sep 2026)</p>
               <h2
                 className="mt-2 text-3xl md:text-4xl"
                 style={{ fontFamily: "var(--font-heading)" }}
