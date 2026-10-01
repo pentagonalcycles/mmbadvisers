@@ -34,6 +34,20 @@ const results = [
     description:
       "The third chart follows an investor who started on 1 January 2020, encompassing the COVID-19 sell-off and the market cycles that followed. By end-September 2026 the DAX cash index stood at 191.78 and the Pod Strategy at 218.25, with an average net exposure of 0.21 over the period.",
   },
+  {
+    title: "From 1 January 2023 to the fall of 2026",
+    image: "/images/PodStrategy20232026.png",
+    alt: "Pod Strategy versus DAX cash index, 2023 to 2026",
+    description:
+      "The fourth chart covers 1 January 2023 to the fall of 2026, a period that has on balance been a rising market for equities. Consistent with the exposure profile described above, the fully invested benchmark outpaced the strategy over this window: 100 euros in the DAX cash index grew to 182.49, while the Pod Strategy reached 149.63 with an average net exposure of 0.2. The lower exposure is visible in the far shallower drawdowns along the blue line.",
+  },
+  {
+    title: "2026 only (year to date)",
+    image: "/images/PodStrategy2026.png",
+    alt: "Pod Strategy versus DAX cash index, 2026 year to date",
+    description:
+      "The final chart isolates the 2026 calendar year to date, through end-September. It illustrates the bear-market point in compact form: during the March 2026 decline the benchmark fell to roughly 91, while the strategy\u2019s drawdown was far shallower. As markets recovered the benchmark closed much of the gap, and the period ends with the Pod Strategy modestly ahead at 105.24 versus 103.75 for the DAX cash index, with an average net exposure of 0.2.",
+  },
 ];
 
 export default function PodStrategyPage() {
@@ -80,7 +94,8 @@ export default function PodStrategyPage() {
         </h2>
         <div className="mt-6 space-y-4 text-[var(--muted)]">
           <p>
-            In backtest, the strategy has performed well in bear markets. That profile is
+            In backtest, the strategy has performed well in general but particularly so in
+            bear markets. That profile is
             structural rather than accidental. The strategy runs an average net exposure of
             approximately 20% net long, whereas the benchmark is 100% net long at all times and
             is therefore intrinsically much more risky. A permanently fully invested position
