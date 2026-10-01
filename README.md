@@ -16,6 +16,7 @@ Minimal Next.js website for MMB Advisers risk management advisory service.
 - `app/track-record/page.tsx` - Historical ex-ante windows with dial and chart visuals (2020, 2022, 2025, 2026)
 - `app/about/page.tsx` - Professional background and credibility
 - `app/onepager/page.tsx` - One-page summary of TP Dates CP (problem, solution, evidence, founder background, CTA), with a download link for the PDF; listed before About in the global navigation
+- `app/pod-strategy/page.tsx` - Backtest results of a fully automated trading strategy on the DAX cash index (~3 trades per week, positioning from 100% net short to 120% net long, backtested since 1960 with only recent years presented); complements the low-frequency TP Dates CP approach and is listed before About in the global navigation
 - `app/contact/page.tsx` - Contact details, enquiry form, server-action submit handling, and clickable logo preview
 - `app/contact/sent/page.tsx` - Contact submission confirmation page (success/invalid states)
 - `components/nav.tsx` - Global top navigation
