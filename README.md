@@ -16,7 +16,7 @@ Minimal Next.js website for MMB Advisers risk management advisory service.
 - `app/track-record/page.tsx` - Historical ex-ante windows with dial and chart visuals (2020, 2022, 2025, 2026)
 - `app/about/page.tsx` - Professional background and credibility
 - `app/onepager/page.tsx` - One-page summary of TP Dates CP (problem, solution, evidence, founder background, CTA), with a download link for the PDF; listed before About in the global navigation
-- `app/pod-strategy/page.tsx` - Backtest results of a fully automated trading strategy on the DAX cash index (~3 trades per week, positioning from 100% net short to 120% net long, backtested since 1960 with only recent years presented); complements the low-frequency TP Dates CP approach and is listed before About in the global navigation
+- `app/pod-strategy/page.tsx` - Backtest results of a fully automated trading strategy on the DAX cash index (~3 trades per week, positioning from 100% net short to 120% net long, average net exposure ~20% net long, backtested since 1960 with only recent years presented), with three clickable backtest charts (2007-2009, 2010-2026, 2020-2026); complements the low-frequency TP Dates CP approach and is listed before About in the global navigation
 - `app/contact/page.tsx` - Contact details, enquiry form, server-action submit handling, and clickable logo preview
 - `app/contact/sent/page.tsx` - Contact submission confirmation page (success/invalid states)
 - `components/nav.tsx` - Global top navigation
@@ -29,6 +29,7 @@ Minimal Next.js website for MMB Advisers risk management advisory service.
 - `public/images/SpecialSituationsVolatilityTrendReversalChart.png` - Special Situations Volatility Fast Price Reversal chart (Method page)
 - `public/images/mytable.png` - Tail-risk turning point candidates table for 2026 (Method page)
 - `public/images/TrendlineAnalysis2026_01.png` through `TrendlineAnalysis2026_05.png` - DAX Heiken Ashi charts for the "Integration of TP Candidate Dates with Primary Trendlines Analysis" walk-through (Method page): 31 March 2026 hedge overlay removal signal, 05-05 turning point, 18 June-19 July TP cluster, 08-18 turning point, and 9 September trend line break / bear scenario
+- `public/images/PodStrategy20072009.png`, `PodStrategy20102026.png`, `PodStrategy20202026.png` - Pod Strategy backtest charts (Pod Strategy page): 100 euros invested in the DAX cash index versus the Pod Strategy from 2007 (three years), 2010, and 2020
 - `public/downloads/mmb-advisers-onepager.pdf` - Printable one-pager PDF (linked from the One Pager page)
 - `public/downloads/mmb-advisers-onepager.tex` - LaTeX source for the one-pager PDF (kept in repo but not exposed as a download link)
 
