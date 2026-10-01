@@ -71,7 +71,8 @@ export default function PodStrategyPage() {
         <div className="mt-6 space-y-4 text-[var(--muted)]">
           <p>
             Whereas all other parts of this website focus on advisory work designed to enable
-            clients to obtain improved risk-adjusted returns on their portfolios, this page
+            clients to obtain improved risk-adjusted returns on their portfolios by focusing on
+            a very small number of key decisions during the course of the year, this page
             reports instead the results of a backtest of a fully automated trading strategy
             applied to the DAX cash index.
           </p>
