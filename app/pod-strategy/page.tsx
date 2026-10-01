@@ -3,7 +3,7 @@ import Image from "next/image";
 const keyFacts = [
   { label: "Instrument", value: "DAX cash index" },
   { label: "Approach", value: "Fully automated trading strategy" },
-  { label: "Trading frequency", value: "Approximately 3 trades per week" },
+  { label: "Trading frequency", value: "Slightly less than one trade per day, on average" },
   { label: "Positioning range", value: "From 100% net short to 120% net long" },
   {
     label: "Average net exposure",
@@ -50,6 +50,15 @@ const results = [
   },
 ];
 
+const summaryRows = [
+  { period: "1960 \u2013 1963 (appendix)", dax: "105.06", pod: "208.17", avg: "0.19" },
+  { period: "2007 \u2013 2009 (3 years)", dax: "90.31", pod: "305.38", avg: "0.22" },
+  { period: "2010 \u2013 end-Sep 2026", dax: "426.5", pod: "1173.37", avg: "0.22" },
+  { period: "2020 \u2013 end-Sep 2026", dax: "191.78", pod: "218.25", avg: "0.21" },
+  { period: "2023 \u2013 fall 2026", dax: "182.49", pod: "149.63", avg: "0.20" },
+  { period: "2026 year to date", dax: "103.75", pod: "105.24", avg: "0.20" }
+];
+
 export default function PodStrategyPage() {
   return (
     <section className="section">
@@ -71,7 +80,7 @@ export default function PodStrategyPage() {
             identifying ex-ante the three or four situations in each calendar year when to
             &ldquo;pull the trigger&rdquo; in relation to protecting the portfolio against the
             eventuality of important market declines. The Pod Strategy, by contrast, has a much
-            higher trading frequency, of approximately 3 trades per week.
+            higher trading frequency, of slightly less than one trade per day, on average.
           </p>
           <p>
             The two therefore cover, to some extent, both extremes of the spectrum: infrequent,
@@ -101,7 +110,11 @@ export default function PodStrategyPage() {
             is therefore intrinsically much more risky. A permanently fully invested position
             absorbs the full force of every important market decline; the strategy is, on
             average, only lightly exposed on the long side, and it may move anywhere within a
-            range that extends to 100% net short.
+            range that extends to 100% net short. Despite its light average net long exposure,
+            the strategy has also shown itself capable of capturing upside movements, aided by
+            its ability to detect recurring patterns behind price movements, and has therefore
+            achieved a return profile that is highly asymmetrical relative to the exposure
+            taken.
           </p>
         </div>
 
@@ -118,6 +131,34 @@ export default function PodStrategyPage() {
           <p>
             All figures shown are net of trading fees. Other fees &mdash; management and
             performance fees, for example &mdash; are excluded.
+          </p>
+        </div>
+
+        <div className="card mt-8 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="text-left text-xs uppercase tracking-wide text-[var(--muted)]">
+                <th className="pb-2 font-semibold">Period</th>
+                <th className="pb-2 text-right font-semibold">DAX cash index</th>
+                <th className="pb-2 text-right font-semibold">Pod Strategy</th>
+                <th className="pb-2 text-right font-semibold">Avg net long</th>
+              </tr>
+            </thead>
+            <tbody>
+              {summaryRows.map((row) => (
+                <tr key={row.period} className="border-t border-[var(--line)]">
+                  <td className="py-2 pr-4">{row.period}</td>
+                  <td className="py-2 text-right tabular-nums text-[var(--muted)]">{row.dax}</td>
+                  <td className="py-2 text-right font-semibold tabular-nums">{row.pod}</td>
+                  <td className="py-2 text-right tabular-nums text-[var(--muted)]">{row.avg}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <p className="mt-3 text-xs text-[var(--muted)]">
+            End-of-period values for a notional 100 euros invested at the start of each period.
+            Avg net long is the average net exposure of the strategy over the period. See the
+            charts below for the full track record of each window.
           </p>
         </div>
 
@@ -155,6 +196,49 @@ export default function PodStrategyPage() {
             future outcomes, and nothing on this page constitutes a recommendation to deal in
             any instrument or transaction.
           </p>
+        </div>
+
+        <h2 className="mt-12 text-2xl" style={{ fontFamily: "var(--font-heading)" }}>
+          Appendix: the earliest years of the backtest
+        </h2>
+        <div className="mt-6 space-y-4 text-[var(--muted)]">
+          <p>
+            For completeness, the earliest window of the backtest is presented here as an
+            appendix: the strategy has been backtested since 1960, and the chart below follows
+            an investor who started on 1 January 1960 and remained invested until the end of
+            1963.
+          </p>
+        </div>
+        <div className="mt-8">
+          <article className="card">
+            <p className="font-semibold">From 1 January 1960 to the end of 1963</p>
+            <a
+              href="/images/PodStrategy19601963.png"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 block"
+              aria-label="Open From 1 January 1960 to the end of 1963 full size"
+            >
+              <Image
+                src="/images/PodStrategy19601963.png"
+                alt="Pod Strategy versus DAX cash index, 1960 to 1963"
+                width={2337}
+                height={1653}
+                className="h-auto w-full rounded-md border border-[var(--line)] transition hover:opacity-80"
+              />
+            </a>
+            <p className="mt-4 text-sm text-[var(--muted)] text-justify">
+              Over those four years the DAX cash index ended at 105.06, while the Pod Strategy
+              ended at 208.17, with an average net exposure of 0.19. The window contains the
+              1962 bear market, in which the benchmark fell to roughly 75 before recovering
+              &mdash; a further illustration of the bear-market behaviour described earlier on
+              this page.
+            </p>
+            <p className="mt-3 text-xs text-[var(--muted)]">
+              Black line: DAX cash index benchmark. Blue line: DAX Pod Strategy. Click the
+              chart to open it full size in a separate tab.
+            </p>
+          </article>
         </div>
       </div>
     </section>
