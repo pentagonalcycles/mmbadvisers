@@ -1,7 +1,10 @@
 import Image from "next/image";
 
 const keyFacts = [
-  { label: "Instrument", value: "DAX cash index" },
+  {
+    label: "Instrument",
+    value: "DAX cash index (the strategy can be applied to any major index)"
+  },
   { label: "Approach", value: "Fully automated trading strategy" },
   { label: "Trading frequency", value: "Slightly less than one trade per day, on average" },
   { label: "Positioning range", value: "From 100% net short to 120% net long" },
@@ -74,7 +77,10 @@ export default function PodStrategyPage() {
             clients to obtain improved risk-adjusted returns on their portfolios by focusing on
             a very small number of key decisions during the course of the year, this page
             reports instead the results of a backtest of a fully automated trading strategy
-            applied to the DAX cash index.
+            applied to the DAX cash index. The results presented here are expressed with
+            reference to that market, but the strategy is not specific to it: it can be applied
+            to any other major index, including the S&amp;P 500 (SPX), the Nasdaq 100 (NDX), the
+            Nikkei 225, and India&rsquo;s NIFTY 50, among others.
           </p>
           <p>
             The TP Dates CP (Turning Point Dates for Capital Protection) model aims at
