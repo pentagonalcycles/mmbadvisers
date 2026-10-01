@@ -75,7 +75,7 @@ export default function PodStrategyPage() {
           <p>
             Whereas all other parts of this website focus on advisory work designed to enable
             clients to obtain improved risk-adjusted returns on their portfolios by focusing on
-            a very small number of key decisions during the course of the year, this page
+            a very small number of key targeted decisions during the course of the year, this page
             reports instead the results of a backtest of a fully automated trading strategy
             applied to the DAX cash index. The results presented here are expressed with
             reference to that market, but the strategy is not specific to it: it can be applied
