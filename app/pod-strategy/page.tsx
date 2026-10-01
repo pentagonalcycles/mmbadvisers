@@ -53,10 +53,10 @@ const results = [
 const summaryRows = [
   { period: "1960 \u2013 1963 (appendix)", dax: "105.06", pod: "208.17", avg: "0.19" },
   { period: "2007 \u2013 2009 (3 years)", dax: "90.31", pod: "305.38", avg: "0.22" },
-  { period: "2010 \u2013 end-Sep 2026", dax: "426.5", pod: "1173.37", avg: "0.22" },
-  { period: "2020 \u2013 end-Sep 2026", dax: "191.78", pod: "218.25", avg: "0.21" },
-  { period: "2023 \u2013 fall 2026", dax: "182.49", pod: "149.63", avg: "0.20" },
-  { period: "2026 year to date", dax: "103.75", pod: "105.24", avg: "0.20" }
+  { period: "2010 \u2013 25 Sep 2026", dax: "426.5", pod: "1173.37", avg: "0.22" },
+  { period: "2020 \u2013 25 Sep 2026", dax: "191.78", pod: "218.25", avg: "0.21" },
+  { period: "2023 \u2013 25 Sep 2026", dax: "182.49", pod: "149.63", avg: "0.20" },
+  { period: "2026 \u2013 25 Sep 2026", dax: "103.75", pod: "105.24", avg: "0.20" }
 ];
 
 export default function PodStrategyPage() {
@@ -159,6 +159,11 @@ export default function PodStrategyPage() {
             End-of-period values for a notional 100 euros invested at the start of each period.
             Avg net long is the average net exposure of the strategy over the period. See the
             charts below for the full track record of each window.
+          </p>
+          <p className="mt-2 text-xs text-[var(--muted)]">
+            Backtested results are presented as observations only. They are not guarantees of
+            future outcomes, and nothing on this page constitutes a recommendation to deal in
+            any instrument or transaction.
           </p>
         </div>
 
