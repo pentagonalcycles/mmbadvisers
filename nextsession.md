@@ -22,6 +22,7 @@ Deployment: Vercel auto-deploy on push to `main`
 - Two-factor authentication enabled on the Vercel account; recovery codes stored outside the repo.
 - README site structure and asset lists updated for the Pod Strategy page.
 - One-pager source (`public/downloads/mmb-advisers-onepager.tex`) revised: header now includes "For professional investors only"; headline reworded to "flags high-risk windows before a drawdown"; hypothetical family-office illustration commented out; hedge-overlay bullet now notes that sizing and execution are the PM's decision. PDF recompiled from the updated source.
+- One Pager web page (`app/onepager/page.tsx`) updated to match the revised PDF: header now includes "For professional investors only"; headline changed to "flags high-risk windows before a drawdown"; hedge-overlay bullet updated; hypothetical family-office illustration removed. Footer already matched the PDF disclaimer.
 
 ## Latest Commits
 
@@ -38,6 +39,7 @@ Deployment: Vercel auto-deploy on push to `main`
 ## Files Recently Changed
 
 - `app/pod-strategy/page.tsx` (updated)
+- `app/onepager/page.tsx` (updated)
 - `components/nav.tsx`
 - `README.md`
 - `nextsession.md`
