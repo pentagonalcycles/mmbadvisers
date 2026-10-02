@@ -16,7 +16,7 @@ export default function OnePagerPage() {
             Turning Point Dates for Capital Protection · Tail risk advisory for family offices and institutional investors
           </p>
           <p className="mt-2 text-sm text-[#C9A84C]">
-            MMB Advisers Ltd · London · www.mmb-advisers.com
+            MMB Advisers Ltd · London · www.mmb-advisers.com · For professional investors only
           </p>
         </div>
       </section>
@@ -34,7 +34,7 @@ export default function OnePagerPage() {
                 Protecting capital against market meltdowns
               </h2>
               <p className="mt-4 max-w-2xl text-[var(--muted)]">
-                An ex-ante tail risk service that tells portfolio managers{" "}
+                An ex-ante tail risk service that flags high-risk windows{" "}
                 <strong>before</strong> a drawdown, not after, so they can act in
                 an orderly way instead of reacting under pressure.
               </p>
@@ -91,7 +91,8 @@ export default function OnePagerPage() {
             <ul className="mt-4 list-disc space-y-1 pl-5 text-[var(--muted)]">
               <li>
                 Hedge overlay via liquid futures and options,{" "}
-                <strong>up to three times a year</strong>
+                <strong>up to three times a year</strong>; sizing and execution are the PM&apos;s
+                decision
               </li>
               <li>
                 No liquidation of core long-term holdings (unless specifically preferred by the PM)
@@ -160,12 +161,6 @@ export default function OnePagerPage() {
               correction (S&P 500 -21%). In 2022 the model caught the Q1 and September declines but{" "}
               <strong>missed the April–June fall</strong>; that limit is disclosed and has not been
               fitted away.
-            </p>
-            <p className="mt-4 text-[var(--muted)]">
-              <strong>Illustration:</strong> for a hypothetical family office with $100M in US equities,
-              a modest overlay through the Q1 2026 window (40% short futures, 20% out-of-the-money puts)
-              would have offset about <strong>$3.4M</strong> of an $8M drawdown for c. $300K in option
-              premium.
             </p>
           </div>
 
