@@ -240,9 +240,12 @@ export default function OnePagerPage() {
 
           {/* Disclaimer */}
           <p className="text-xs leading-relaxed text-[#666666]">
-            MMB Advisers Ltd, registered in England & Wales (No. 07722496). MMB Advisers is not FCA
-            registered and does not provide regulated investment advice; portfolio decisions and
-            execution remain with the client and its regulated advisers. This document is for
+            MMB Advisers Ltd, registered in England & Wales (No. 07722496). MMB Advisers is not
+            authorised or regulated by the Financial Conduct Authority. Its research is general and
+            impersonal, is provided on the same basis to all subscribers, does not take account of
+            any recipient&apos;s circumstances and does not constitute a personal recommendation.
+            Hedging, sizing and execution decisions remain with the client and its regulated
+            advisers. For professional investors only; not for retail clients. This document is for
             information only. Back-tested and illustrative results are hypothetical and do not
             represent actual client outcomes. Past performance is not a guide to future results.
           </p>
