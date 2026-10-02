@@ -49,7 +49,7 @@ const results = [
     image: "/images/PodStrategy2026.png",
     alt: "Pod Strategy versus DAX cash index, 2026 year to date",
     description:
-      "The final chart isolates the 2026 calendar year to date, through end-September. It illustrates the bear-market point in compact form: during the March 2026 decline the benchmark fell to roughly 91, while the strategy\u2019s drawdown was far shallower. As markets recovered the benchmark closed much of the gap, and the period ends with the Pod Strategy modestly ahead at 105.24 versus 103.75 for the DAX cash index, with an average net exposure of 0.2.",
+      "The fifth chart isolates the 2026 calendar year to date, through end-September. It illustrates the bear-market point in compact form: during the March 2026 decline the benchmark fell to roughly 91, while the strategy\u2019s drawdown was far shallower. As markets recovered the benchmark closed much of the gap, and the period ends with the Pod Strategy modestly ahead at 105.24 versus 103.75 for the DAX cash index, with an average net exposure of 0.2.",
   },
 ];
 
@@ -58,8 +58,34 @@ const summaryRows = [
   { period: "2007 \u2013 2009 (3 years)", dax: "90.31", pod: "305.38", avg: "0.22" },
   { period: "2010 \u2013 25 Sep 2026", dax: "426.5", pod: "1173.37", avg: "0.22" },
   { period: "2020 \u2013 25 Sep 2026", dax: "191.78", pod: "218.25", avg: "0.21" },
+  { period: "2020 (calendar year, appendix)", dax: "103.55", pod: "111.42", avg: "0.20" },
+  { period: "2022 (calendar year, appendix)", dax: "87.65", pod: "101.24", avg: "0.26" },
   { period: "2023 \u2013 25 Sep 2026", dax: "182.49", pod: "149.63", avg: "0.20" },
   { period: "2026 \u2013 25 Sep 2026", dax: "103.75", pod: "105.24", avg: "0.20" }
+];
+
+const appendixResults = [
+  {
+    title: "From 1 January 1960 to the end of 1963",
+    image: "/images/PodStrategy19601963.png",
+    alt: "Pod Strategy versus DAX cash index, 1960 to 1963",
+    description:
+      "Over those four years the DAX cash index ended at 105.06, while the Pod Strategy ended at 208.17, with an average net exposure of 0.19. The window contains the 1962 bear market, in which the benchmark fell to roughly 75 before recovering \u2014 a further illustration of the bear-market behaviour described earlier on this page.",
+  },
+  {
+    title: "The 2020 calendar year",
+    image: "/images/PodStrategy2020.png",
+    alt: "Pod Strategy versus DAX cash index, 2020 calendar year",
+    description:
+      "The 2020 calendar year follows an investor who started with 100 euros on 1 January 2020 and remained invested through the COVID-19 sell-off and the recovery that followed. During the February\u2013March 2020 decline the benchmark fell to roughly 63 at its worst, while the strategy's drawdown was far shallower. By the end of the year the DAX cash index stood at 103.55 and the Pod Strategy at 111.42, with an average net exposure of 0.2 over the period.",
+  },
+  {
+    title: "The 2022 calendar year",
+    image: "/images/PodStrategy2022.png",
+    alt: "Pod Strategy versus DAX cash index, 2022 calendar year",
+    description:
+      "The 2022 calendar year covers a period that was on balance a declining market for equities. By the end of the year the DAX cash index stood at 87.65, while the Pod Strategy stood at 101.24, with an average net exposure of 0.26 over the period. The benchmark fell to roughly 75 at its September\u2013October low, while the strategy's drawdowns were far shallower throughout.",
+  },
 ];
 
 export default function PodStrategyPage() {
@@ -211,46 +237,41 @@ export default function PodStrategyPage() {
         </div>
 
         <h2 className="mt-12 text-2xl" style={{ fontFamily: "var(--font-heading)" }}>
-          Appendix: the earliest years of the backtest
+          Appendix: additional windows of the backtest
         </h2>
         <div className="mt-6 space-y-4 text-[var(--muted)]">
           <p>
-            For completeness, the earliest window of the backtest is presented here as an
-            appendix: the strategy has been backtested since 1960, and the chart below follows
-            an investor who started on 1 January 1960 and remained invested until the end of
-            1963.
+            For completeness, additional windows of the backtest are presented here as an
+            appendix: the earliest years of the record, together with the 2020 and 2022 calendar
+            years, each of which contains an important market decline.
           </p>
         </div>
-        <div className="mt-8">
-          <article className="card">
-            <p className="font-semibold">From 1 January 1960 to the end of 1963</p>
-            <a
-              href="/images/PodStrategy19601963.png"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 block"
-              aria-label="Open From 1 January 1960 to the end of 1963 full size"
-            >
-              <Image
-                src="/images/PodStrategy19601963.png"
-                alt="Pod Strategy versus DAX cash index, 1960 to 1963"
-                width={2337}
-                height={1653}
-                className="h-auto w-full rounded-md border border-[var(--line)] transition hover:opacity-80"
-              />
-            </a>
-            <p className="mt-4 text-sm text-[var(--muted)] text-justify">
-              Over those four years the DAX cash index ended at 105.06, while the Pod Strategy
-              ended at 208.17, with an average net exposure of 0.19. The window contains the
-              1962 bear market, in which the benchmark fell to roughly 75 before recovering
-              &mdash; a further illustration of the bear-market behaviour described earlier on
-              this page.
-            </p>
-            <p className="mt-3 text-xs text-[var(--muted)]">
-              Black line: DAX cash index benchmark. Blue line: DAX Pod Strategy. Click the
-              chart to open it full size in a separate tab.
-            </p>
-          </article>
+        <div className="mt-8 space-y-6">
+          {appendixResults.map((result) => (
+            <article key={result.title} className="card">
+              <p className="font-semibold">{result.title}</p>
+              <a
+                href={result.image}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 block"
+                aria-label={`Open ${result.title} full size`}
+              >
+                <Image
+                  src={result.image}
+                  alt={result.alt}
+                  width={2337}
+                  height={1653}
+                  className="h-auto w-full rounded-md border border-[var(--line)] transition hover:opacity-80"
+                />
+              </a>
+              <p className="mt-4 text-sm text-[var(--muted)] text-justify">{result.description}</p>
+              <p className="mt-3 text-xs text-[var(--muted)]">
+                Black line: DAX cash index benchmark. Blue line: DAX Pod Strategy. Click the
+                chart to open it full size in a separate tab.
+              </p>
+            </article>
+          ))}
         </div>
       </div>
     </section>
