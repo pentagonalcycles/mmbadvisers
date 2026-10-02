@@ -1,6 +1,6 @@
 # Next Session Notes (MMB Advisers)
 
-Date: 2026-10-01
+Date: 2026-10-02
 Repo: `pentagonalcycles/mmbadvisers`
 Branch: `main`
 Deployment: Vercel auto-deploy on push to `main`
@@ -15,12 +15,13 @@ Deployment: Vercel auto-deploy on push to `main`
   - "Behaviour in bear markets" section: structural explanation of the exposure contrast, plus upside-capture / return-profile-asymmetry wording.
   - "Backtest results" section: summary table of end-of-period values for all windows (last date 25 Sep 2026; fee note: net of trading fees, management/performance fees excluded; disclaimer repeated at the bottom of the table card) and five clickable charts: 2007-2009 (three years), 2010-25 Sep 2026, 2020-25 Sep 2026, 2023-25 Sep 2026, 2026 YTD.
   - Closing observation-only disclaimer.
-  - Appendix: earliest window of the backtest (1 January 1960 to end-1963) with its own chart.
+  - Appendix: additional windows of the backtest, with charts for the earliest window (1 January 1960 to end-1963) and the single calendar years 2020 and 2022.
 - Pod Strategy charts were converted from R-generated PDFs in `/home/marco/Desktop/projects/trading/pods/LgNav64/` using `pdftoppm -png -r 200` (page 1). Note: those PDFs each contain 67 identical pages (R graphics artifact); PDF attachments cannot be read directly by the assistant, so on-disk copies are converted to PNG first.
-- Chart values for reference (100 euros at each start date): 1960-63 DAX 105.06 / Pod 208.17 (avg 0.19); 2007-09 90.31 / 305.38 (0.22); 2010-Sep 2026 426.5 / 1173.37 (0.22); 2020-Sep 2026 191.78 / 218.25 (0.21); 2023-Sep 2026 182.49 / 149.63 (0.20); 2026 YTD 103.75 / 105.24 (0.20).
+- Chart values for reference (100 euros at each start date): 1960-63 DAX 105.06 / Pod 208.17 (avg 0.19); 2007-09 90.31 / 305.38 (0.22); 2010-Sep 2026 426.5 / 1173.37 (0.22); 2020-Sep 2026 191.78 / 218.25 (0.21); 2020 calendar year DAX 103.55 / Pod 111.42 (avg 0.20); 2022 calendar year DAX 87.65 / Pod 101.24 (avg 0.26); 2023-Sep 2026 182.49 / 149.63 (0.20); 2026 YTD 103.75 / 105.24 (0.20).
 - Vercel auto-deploy succeeded for all Pod Strategy commits; live site at `https://mmb-advisers.com/pod-strategy`.
 - Two-factor authentication enabled on the Vercel account; recovery codes stored outside the repo.
 - README site structure and asset lists updated for the Pod Strategy page.
+- One-pager source (`public/downloads/mmb-advisers-onepager.tex`) revised: header now includes "For professional investors only"; headline reworded to "flags high-risk windows before a drawdown"; hypothetical family-office illustration commented out; hedge-overlay bullet now notes that sizing and execution are the PM's decision. PDF recompiled from the updated source.
 
 ## Latest Commits
 
@@ -36,10 +37,12 @@ Deployment: Vercel auto-deploy on push to `main`
 
 ## Files Recently Changed
 
-- `app/pod-strategy/page.tsx` (new)
+- `app/pod-strategy/page.tsx` (updated)
 - `components/nav.tsx`
 - `README.md`
-- `public/images/PodStrategy20072009.png`, `PodStrategy20102026.png`, `PodStrategy20202026.png`, `PodStrategy20232026.png`, `PodStrategy2026.png`, `PodStrategy19601963.png` (new)
+- `nextsession.md`
+- `public/images/PodStrategy20072009.png`, `PodStrategy20102026.png`, `PodStrategy20202026.png`, `PodStrategy20232026.png`, `PodStrategy2026.png`, `PodStrategy19601963.png`, `PodStrategy2020.png`, `PodStrategy2022.png`
+- `public/downloads/mmb-advisers-onepager.tex` and `mmb-advisers-onepager.pdf` (revised and recompiled)
 
 ## Domain / DNS
 
@@ -66,10 +69,11 @@ When resuming, check whether these should be kept, committed, or cleaned up.
 
 - `mytable.tex` is located at `/home/marco/Desktop/mytable.tex` (outside repo).
 - Compiled to PNG via `pdftoppm -png -r 300` and placed in `public/images/mytable.png`.
+- `public/downloads/mmb-advisers-onepager.tex` is the LaTeX source for the downloadable one-pager PDF; compiled with `pdflatex` to `public/downloads/mmb-advisers-onepager.pdf`.
 
 ## Suggested First Checks Next Session
 
-1. Verify the Pod Strategy page at `https://mmb-advisers.com/pod-strategy`: navigation order (One Pager, Pod Strategy, About), summary table with 25 Sep 2026 end dates and table disclaimer, five charts plus the 1960-1963 appendix chart.
+1. Verify the Pod Strategy page at `https://mmb-advisers.com/pod-strategy`: navigation order (One Pager, Pod Strategy, About), summary table with 25 Sep 2026 end dates and table disclaimer, five main backtest charts plus the appendix charts for 1960-1963, 2020, and 2022.
 2. Verify the intro phrasing ("...on their portfolios by focusing on a very small number of key decisions during the course of the year") and the major-index applicability wording (SPX, NDX, Nikkei 225, India NIFTY 50).
 3. Confirm the latest Vercel deployment remains stable and no new build errors appear.
 4. Decide whether to commit/ignore the remaining local `images/` changes.
