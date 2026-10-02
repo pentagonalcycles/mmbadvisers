@@ -24,6 +24,12 @@ Deployment: Vercel auto-deploy on push to `main`
 - One-pager source (`public/downloads/mmb-advisers-onepager.tex`) revised: header now includes "For professional investors only"; headline reworded to "flags high-risk windows before a drawdown"; hypothetical family-office illustration commented out; hedge-overlay bullet now notes that sizing and execution are the PM's decision. PDF recompiled from the updated source.
 - One Pager web page (`app/onepager/page.tsx`) updated to match the revised PDF: header now includes "For professional investors only"; headline changed to "flags high-risk windows before a drawdown"; hedge-overlay bullet updated; hypothetical family-office illustration removed; footer updated to the longer FCA-authorisation disclaimer.
 
+## Today's activity
+
+- Verified the two Pod Strategy appendix charts (2020 and 2022 calendar years) against the images supplied in this session.
+- Confirmed the supplied images are byte-for-byte identical to the existing files in `public/images/PodStrategy2020.png` and `public/images/PodStrategy2022.png`; no source or asset changes were required.
+- `npm run lint` and `npm run build` both pass.
+
 ## Latest Commits
 
 - `9dc7834` - content: refine Pod Strategy intro phrasing on advisory focus
@@ -75,8 +81,7 @@ When resuming, check whether these should be kept, committed, or cleaned up.
 
 ## Suggested First Checks Next Session
 
-1. Verify the Pod Strategy page at `https://mmb-advisers.com/pod-strategy`: navigation order (One Pager, Pod Strategy, About), summary table with 25 Sep 2026 end dates and table disclaimer, five main backtest charts plus the appendix charts for 1960-1963, 2020, and 2022.
-2. Verify the intro phrasing ("...on their portfolios by focusing on a very small number of key decisions during the course of the year") and the major-index applicability wording (SPX, NDX, Nikkei 225, India NIFTY 50).
-3. Confirm the latest Vercel deployment remains stable and no new build errors appear.
-4. Decide whether to commit/ignore the remaining local `images/` changes.
-5. If contact form should send emails, implement backend handling (currently UI-only form).
+1. Confirm the latest Vercel deployment remains stable and no new build errors appear.
+2. Verify the Pod Strategy page intro phrasing ("...on their portfolios by focusing on a very small number of key decisions during the course of the year") and the major-index applicability wording (SPX, NDX, Nikkei 225, India NIFTY 50).
+3. Decide whether to commit/ignore the remaining local `images/` changes.
+4. If contact form should send emails, implement backend handling (currently UI-only form).
