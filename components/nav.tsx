@@ -8,6 +8,7 @@ const links = [
   { href: "/track-record", label: "Track Record" },
   { href: "/onepager", label: "One Pager" },
   { href: "/pod-strategy", label: "Pod Strategy" },
+  { href: "/dax", label: "DAX" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" }
 ];
