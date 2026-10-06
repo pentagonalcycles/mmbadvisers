@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap");
 @import "tailwindcss";
 
 :root {
@@ -7,6 +8,8 @@
   --muted: #5f6c7a;
   --accent: #1c4f4a;
   --line: #d8deda;
+  --font-heading: "Merriweather", Georgia, serif;
+  --font-body: "Source Sans 3", "Segoe UI", sans-serif;
 }
 
 * {
@@ -19,7 +22,7 @@ body {
   padding: 0;
   background: radial-gradient(circle at top right, #e6ece7 0%, var(--bg) 45%);
   color: var(--text);
-  font-family: var(--font-body), "Segoe UI", sans-serif;
+  font-family: var(--font-body);
 }
 
 a {

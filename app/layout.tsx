@@ -1,20 +1,7 @@
 import type { Metadata } from "next";
-import { Merriweather, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import { Footer } from "@/components/footer";
 import { Nav } from "@/components/nav";
-
-const heading = Merriweather({
-  variable: "--font-heading",
-  subsets: ["latin"],
-  weight: ["400", "700"]
-});
-
-const body = Source_Sans_3({
-  variable: "--font-body",
-  subsets: ["latin"],
-  weight: ["400", "600", "700"]
-});
 
 export const metadata: Metadata = {
   title: "MMB Advisers | Risk Management Advisory",
@@ -29,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${heading.variable} ${body.variable}`}>
+    <html lang="en">
       <body>
         <Nav />
         <main>{children}</main>
