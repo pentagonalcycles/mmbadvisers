@@ -27,7 +27,8 @@ export default function DaxPage() {
             Cluster #2 groups four Turning Point dates in the June window, marking the consolidation
             that preceded the summer advance. The full list of 12 TP candidate dates for 2026 are
             reported in the sub-title of the chart, in blue colour. The price bars corresponding to
-            such dates are reported in dark red colour in the chart.
+            such dates are reported in dark red colour in the chart. The last TP cluster for the
+            year will be 24 Oct to 30 Nov 2026, a time window with high risk of decline.
           </p>
           <p>
             The green dashed trendline supported the market from the March low through the summer,
