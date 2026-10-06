@@ -25,7 +25,9 @@ export default function DaxPage() {
             . Cluster #1 spans two Turning Point dates around the 27 February high and the 23 March
             low, capturing the drawdown that followed the February peak and the subsequent bounce.
             Cluster #2 groups four Turning Point dates in the June window, marking the consolidation
-            that preceded the summer advance.
+            that preceded the summer advance. The full list of 12 TP candidate dates for 2026 are
+            reported in the sub-title of the chart, in blue colour. The price bars corresponding to
+            such dates are reported in dark red colour in the chart.
           </p>
           <p>
             The green dashed trendline supported the market from the March low through the summer,
@@ -58,8 +60,7 @@ export default function DaxPage() {
             </p>
             <p>
               The TP dates marked on the chart are 26 February, 25 March, 5 May, 18 June, 30 June,
-              2 July, 19 July, 18 August, 24 October, 30 October, 15 November and 30 November 2026,
-              together with the projected levels 23,366.89 and 26,083.78.
+              2 July, 19 July, 18 August, 24 October, 30 October, 15 November and 30 November 2026.
             </p>
             <p className="text-xs">
               Click the chart to open it full size in a separate tab.
