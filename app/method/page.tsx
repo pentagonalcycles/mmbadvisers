@@ -90,8 +90,12 @@ export default function MethodPage() {
           4 CORE Proprietary Indicators
         </h2>
         <div className="mt-6 grid gap-6 md:grid-cols-2">
-          {charts.map((chart) => (
-            <article key={chart.title} className="card">
+          {charts.map((chart, index) => (
+            <article
+              key={chart.title}
+              id={index === 0 ? "tp-dial-chart" : undefined}
+              className="card"
+            >
               <p className="font-semibold">{chart.title}</p>
               <a
                 href={chart.image}

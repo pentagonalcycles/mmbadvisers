@@ -17,11 +17,15 @@ export default function DaxPage() {
             turning-point clusters and how those dates interact with primary trendline analysis.
           </p>
           <p>
-            Two clusters are highlighted on the chart. Cluster #1 spans two Turning Point dates
-            around the 27 February high and the 23 March low, capturing the drawdown that
-            followed the February peak and the subsequent bounce. Cluster #2 groups four Turning
-            Point dates in the June window, marking the consolidation that preceded the summer
-            advance.
+            Two clusters are highlighted on the chart, derived from our &ldquo;12 TP Candidate Dates
+            Dial Chart&rdquo; shown in the{" "}
+            <a href="/method#tp-dial-chart" className="text-[var(--accent)] underline">
+              Method page
+            </a>
+            . Cluster #1 spans two Turning Point dates around the 27 February high and the 23 March
+            low, capturing the drawdown that followed the February peak and the subsequent bounce.
+            Cluster #2 groups four Turning Point dates in the June window, marking the consolidation
+            that preceded the summer advance.
           </p>
           <p>
             The green dashed trendline supported the market from the March low through the summer,
