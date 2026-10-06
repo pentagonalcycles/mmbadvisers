@@ -6,7 +6,7 @@ export default function DaxPage() {
       <div className="container max-w-4xl">
         <p className="eyebrow">DAX</p>
         <h1 className="mt-2 text-4xl" style={{ fontFamily: "var(--font-heading)" }}>
-          DAX Heiken Ashi chart with Turning Point date clusters
+          Combining the 12 TP candidate dates dial chart information with trendlines
         </h1>
 
         <div className="mt-6 space-y-4 text-[var(--muted)]">
