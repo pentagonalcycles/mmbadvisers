@@ -20,8 +20,9 @@ Minimal Next.js website for MMB Advisers risk management advisory service.
 - `app/dax/page.tsx` - "Combining the 12 TP candidate dates dial chart information with trendlines": DAX Heiken Ashi chart from 1 January 2026 to 25 September 2026, annotated with TP Dates CP clusters, primary trendlines, entry/exit signals, and key levels; links to the 12 TP Candidate Dates Dial Chart on the Method page; listed after Pod Strategy and before About in the global navigation
 - `app/contact/page.tsx` - Contact details, enquiry form, server-action submit handling, and clickable logo preview
 - `app/contact/sent/page.tsx` - Contact submission confirmation page (success/invalid states)
+- `app/disclaimer/page.tsx` - Full legal disclaimer covering the technical/quantitative nature of the service, client discretion, and liability limitations
 - `components/nav.tsx` - Global top navigation
-- `components/footer.tsx` - Global footer + legal disclaimer
+- `components/footer.tsx` - Global footer + short legal disclaimer with link to full disclaimer page
 - `content/site.ts` - Shared copy (hero text, value points, timeline, disclaimer)
 - `public/images/logo.png` - Website logo asset (used in nav and contact page full-size preview link)
 - `public/images/Dial*.png` - Track record dial and chart images for 2020, 2022, 2025, 2026 (clickable, open full-size)
@@ -34,6 +35,7 @@ Minimal Next.js website for MMB Advisers risk management advisory service.
 - `public/images/DAX.png` - DAX Heiken Ashi chart from 1 January 2026 to 25 September 2026, annotated with TP date clusters, trendlines, entry/exit signals, and key levels (DAX page)
 - `public/downloads/mmb-advisers-onepager.pdf` - Printable one-pager PDF (linked from the One Pager page)
 - `public/downloads/mmb-advisers-onepager.tex` - LaTeX source for the one-pager PDF (kept in repo but not exposed as a download link)
+- `public/downloads/cvMarcoBianchiPhD.pdf` - Marco Bianchi's CV PDF (linked from the About page)
 
 ## Legal and compliance notes
 
@@ -48,7 +50,7 @@ Before public launch, re-check all legal wording with qualified UK regulatory/le
 
 - Always define `TP Dates CP` as `Turning Point Dates for Capital Protection` on first use in key pages.
 - Keep language advisory-focused (`risk management overlay`) and avoid promotional trading language.
-- Legal disclaimer appears in the site-wide footer only.
+- Legal disclaimer appears in the site-wide footer and on the dedicated `/disclaimer` page.
 
 ## Local development
 

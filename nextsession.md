@@ -1,6 +1,6 @@
 # Next Session Notes (MMB Advisers)
 
-Date: 2026-10-06
+Date: 2026-10-07
 Repo: `pentagonalcycles/mmbadvisers`
 Branch: `main`
 Deployment: Vercel auto-deploy on push to `main`
@@ -8,44 +8,45 @@ Deployment: Vercel auto-deploy on push to `main`
 ## Current Status
 
 - Website is live and publicly accessible.
-- New "DAX" page added (`app/dax/page.tsx`), listed after Pod Strategy and before About in the global navigation.
-- The page is titled "Combining the 12 TP candidate dates dial chart information with trendlines" and reports the DAX Heiken Ashi chart from 1 January 2026 to 25 September 2026 (`public/images/DAX.png`):
-  - Explains how the TP Dates CP framework identifies candidate turning-point clusters and how they interact with primary trendline analysis.
-  - Highlights Cluster #1 (27 Feb high to 23 Mar low) and Cluster #2 (June window with four TP dates).
-  - Links the clusters back to the "12 TP Candidate Dates Dial Chart" on the Method page (`/method#tp-dial-chart`).
-  - Notes that the 12 TP candidate dates appear in blue in the chart sub-title and the corresponding price bars are in dark red.
-  - Mentions the last TP cluster for the year: 24 Oct to 30 Nov 2026, a time window with high risk of decline.
-  - Reports the last OHLC values on 25 September 2026 and the full list of 12 TP candidate dates.
-  - Includes the standard observation-only disclaimer.
-- Method page (`app/method/page.tsx`) updated to add an `id="tp-dial-chart"` anchor to the first chart card so the DAX page can link directly to it.
-- Fixed a Vercel build failure caused by a Next.js 16 / Turbopack bug with `next/font/google`:
-  - Removed `next/font/google` from `app/layout.tsx`.
-  - Loaded Merriweather and Source Sans 3 via a CSS `@import` in `app/globals.css`.
-  - Defined `--font-heading` and `--font-body` as CSS variables in `:root`.
-  - Local `npm run lint` and `npm run build` pass; Vercel deployment succeeded after the fix.
-- README site structure and asset lists updated for the DAX page.
+- New dedicated `/disclaimer` page added (`app/disclaimer/page.tsx`) and linked from the global navigation (last item) and from the site-wide footer.
+- About page (`app/about/page.tsx`) updated:
+  - Current focus copy now frames the dual offering across the signal-frequency spectrum (low-frequency TP Dates CP to high-frequency Pod Strategy).
+  - Added a download link for `public/downloads/cvMarcoBianchiPhD.pdf` below the one-page professional bio image.
+- CV source file `cvMarcoBianchiPhD.tex` updated in the local `cvMarco` workspace to reflect the website-aligned positioning, EB Garamond font, domain email, and Opencode tooling.
+- Local `npm run lint` and `npm run build` pass; Vercel deployments succeeded for all pushes.
+- `README.md` and `nextsession.md` updated to reflect the disclaimer page, CV download, and About page changes.
 
 ## Previous Status (retained)
 
+- New "DAX" page added (`app/dax/page.tsx`), listed after Pod Strategy and before About in the global navigation.
+- The DAX page is titled "Combining the 12 TP candidate dates dial chart information with trendlines" and reports the DAX Heiken Ashi chart from 1 January 2026 to 25 September 2026 (`public/images/DAX.png`).
+- Method page (`app/method/page.tsx`) has an `id="tp-dial-chart"` anchor so the DAX page links directly to the dial chart.
+- Fixed a Vercel build failure caused by a Next.js 16 / Turbopack bug with `next/font/google` by loading Merriweather and Source Sans 3 via CSS `@import`.
 - Pod Strategy page remains live at `https://mmb-advisers.com/pod-strategy`.
 - One Pager page and PDF remain aligned with the revised disclaimer and copy.
 
 ## Today's Activity
 
-- Added the DAX page (`app/dax/page.tsx`) and the `public/images/DAX.png` asset.
-- Added the DAX link to `components/nav.tsx` after Pod Strategy.
-- Refined the DAX page copy across several iterations:
-  - Linked the TP clusters to the Method page dial chart.
-  - Added notes on the 12 TP candidate dates in the sub-title and dark red price bars.
-  - Added the last TP cluster note (24 Oct to 30 Nov 2026).
-  - Removed the projected price levels from the TP dates list.
-  - Updated the page title to "Combining the 12 TP candidate dates dial chart information with trendlines".
-- Added the `tp-dial-chart` anchor to the Method page.
-- Diagnosed and fixed the Vercel/Turbopack Google Fonts build failure.
+- Updated About page current focus copy to emphasize the spectrum from low-frequency capital protection to high-frequency automated quant pod-type strategies.
+- Added a CV PDF download link to the About page and copied `cvMarcoBianchiPhD.pdf` into `public/downloads/`.
+- Created a dedicated `/disclaimer` page with comprehensive legal language covering:
+  - Technical/quantitative/mathematical nature of the service.
+  - No FCA registration and no regulated investment advice.
+  - Client discretion and decision-making responsibility.
+  - No liability for losses or profits.
+  - Past observations and model limitations.
+  - Recommendation to seek independent professional advice.
+- Added "Disclaimer" as the last item in the global navigation.
+- Updated the footer disclaimer to link to the full disclaimer page.
+- Updated local CV files (`cvMarcoBianchiPhD.tex`, `cvMarcoBianchiPhD_Oli.tex`, `cvMarcoBianchiPhDOld.tex`) and compiled PDFs.
 - Updated `README.md` and `nextsession.md`.
 
 ## Latest Commits
 
+- `e05e27b` - feat: add dedicated disclaimer page with nav and footer links
+- `142cff5` - feat: add CV PDF download link to About page
+- `47d51c1` - content: refine About page to contrast low-frequency and high-frequency advisory spectrum
+- `d8d226e` - content: update About page current focus to include automated quant pod-type strategies
 - `b70b017` - content: update DAX page title
 - `173bc87` - content: refine DAX page copy on TP dates and chart colours
 - `5480fc5` - fix: load Google Fonts via CSS to avoid Turbopack build failure
@@ -54,14 +55,13 @@ Deployment: Vercel auto-deploy on push to `main`
 
 ## Files Recently Changed
 
-- `app/dax/page.tsx` (new)
-- `app/method/page.tsx` (added `tp-dial-chart` anchor)
-- `app/layout.tsx` (removed `next/font/google`)
-- `app/globals.css` (added Google Fonts import and CSS variables)
-- `components/nav.tsx` (added DAX link)
+- `app/disclaimer/page.tsx` (new)
+- `app/about/page.tsx` (updated current focus copy and added CV download link)
+- `components/nav.tsx` (added Disclaimer link)
+- `components/footer.tsx` (added full disclaimer link)
+- `public/downloads/cvMarcoBianchiPhD.pdf` (new)
 - `README.md` (updated)
 - `nextsession.md` (updated)
-- `public/images/DAX.png` (new)
 
 ## Domain / DNS
 
@@ -92,7 +92,8 @@ When resuming, check whether these should be kept, committed, or cleaned up.
 
 ## Suggested First Checks Next Session
 
-1. Confirm the latest Vercel deployment of the DAX page remains stable.
-2. Verify the DAX page title, Method page anchor link, and copy are rendering correctly on the live site.
-3. Decide whether to commit/ignore the remaining local `images/` changes.
-4. If contact form should send emails, implement backend handling (currently UI-only form).
+1. Confirm the latest Vercel deployments of the About page and Disclaimer page are stable.
+2. Verify the CV download link and disclaimer links (nav + footer) render correctly on the live site.
+3. Review the disclaimer page wording with qualified UK regulatory/legal counsel before treating it as final.
+4. Decide whether to commit/ignore the remaining local `images/` changes.
+5. If contact form should send emails, implement backend handling (currently UI-only form).
