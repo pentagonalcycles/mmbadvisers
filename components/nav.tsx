@@ -10,7 +10,8 @@ const links = [
   { href: "/pod-strategy", label: "Pod Strategy" },
   { href: "/dax", label: "DAX" },
   { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" }
+  { href: "/contact", label: "Contact" },
+  { href: "/disclaimer", label: "Disclaimer" }
 ];
 
 export function Nav() {

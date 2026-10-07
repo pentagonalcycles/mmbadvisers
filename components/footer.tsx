@@ -7,7 +7,10 @@ export function Footer() {
           <p>Risk management advisory for institutional investors.</p>
         </div>
         <p className="text-xs leading-relaxed">
-          Legal disclaimer: MMB Advisers is not FCA registered and does not provide regulated investment advice. The content on this website is for information only and does not recommend or advise clients to enter into any specific trade, transaction, or investment action.
+          Legal disclaimer: MMB Advisers is not FCA registered and does not provide regulated investment advice. The content on this website is for information only and does not recommend or advise clients to enter into any specific trade, transaction, or investment action.{" "}
+          <a href="/disclaimer" className="underline hover:opacity-80">
+            Read full disclaimer.
+          </a>
         </p>
       </div>
     </footer>
