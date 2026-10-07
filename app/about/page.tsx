@@ -40,6 +40,16 @@ export default function AboutPage() {
             <figcaption className="mt-3 text-xs text-[var(--muted)]">
               One-page professional bio. Click the image to open full size in a separate tab for easier reading.
             </figcaption>
+            <p className="mt-2 text-xs">
+              <a
+                href="/downloads/cvMarcoBianchiPhD.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:opacity-80"
+              >
+                Download full CV (PDF)
+              </a>
+            </p>
           </figure>
         </div>
       </div>
