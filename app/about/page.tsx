@@ -17,7 +17,7 @@ export default function AboutPage() {
               Former co-manager of a 250M USD long/short European equities fund and recipient of Eurohedge recognition for systematic strategies.
             </p>
             <p>
-              Current focus is capital protection advisory for long-only and multi-asset investors exposed to major drawdown risk.
+              Current focus is capital protection advisory for long-only and multi-asset investors exposed to major drawdown risk, as well as completely automated pure quant pod-type strategies.
             </p>
           </div>
           <figure className="card">
